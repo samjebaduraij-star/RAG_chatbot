@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2025-09-05T20:34:54.513170",
+    "session_id": "46fe944f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course. Here is a summary of the provided content, which includes an SEC filing, a document on Google's AI strategy, and another on the future of search.\n\nThe documents provide a comprehensive overview of Alphabet Inc. (Google), detailing its current business structure, key risks, and its major strategic pivot towards generative artificial intelligence.\n\nHere are the key takeaways:\n\n**1. Core Business and Financials (from the SEC Filing)**\n*   **Business Segments:** Alphabet's business is primarily organized into three segments:\n    *   **Google Services:** This is the largest segment and includes core products like Ads, Android, Chrome, Hardware, Google Maps, Google Play, Search, and YouTube. The vast majority of revenue comes from advertising.\n    *   **Google Cloud:** This segment includes Google's infrastructure, data analytics, and collaboration tools (like Google Workspace). It's a key area of growth.\n    *   **Other Bets:** This includes a portfolio of emerging technologies in various stages, such as Waymo (self-driving cars) and Verily (life sciences).\n*   **Key Risks:** The company identifies significant competition across all its services, the rapid pace of technological change, and potential impacts from global economic conditions and extensive government regulation as major risks.\n\n**2. The Strategic Shift to Generative AI (from \"Googles-Generative-AI-Strategy.pdf\")**\n*   **Core Technology:** Google is leveraging its powerful, next-generation language models, specifically **LaMDA** and the more advanced **PaLM 2**, to power its new AI experiences. This is supported by its custom-built **Tensor Processing Units (TPUs)**, which are optimized for AI workloads.\n*   **Key Product - Bard:** **Bard** is Google's conversational AI service, designed to be a creative and helpful collaborator. It is powered by LaMDA and is being progressively upgraded to the more capable PaLM 2 model.\n*   **Integration Strategy:** Google is not just building standalone AI tools; it's deeply integrating generative AI into its flagship products, including Google Workspace (Docs, Gmail, Sheets) and, most importantly, Google Search.\n*   **Guiding Principles:** The company emphasizes a \"bold and responsible\" approach to AI development, guided by its established AI Principles.\n\n**3. The Evolution of Google Search (from \"The-Future-of-Search-is-Conversational-and-Contextual.pdf\")**\n*   **From Links to Conversation:** Google Search is undergoing its most significant transformation, moving away from the traditional \"ten blue links\" to a more interactive and conversational model.\n*   **Search Generative Experience (SGE):** This is the new search interface. When a user asks a question, SGE can provide an **AI-powered snapshot** at the top of the results page. This snapshot synthesizes information from",
+    "document_ref": "",
+    "response_time": 22.52188205718994,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-05T20:34:54.516099",
+    "session_id": "46fe944f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the uploaded content",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-05T20:37:22.852911",
+    "session_id": "46fe944f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! Here is a summary of the resume for Sam L. Jackson, based on the provided `sam-resume.pdf`:\n\nSam L. Jackson is a results-oriented **Senior Software Engineer** with over 5 years of experience in full-stack development, cloud technologies (specifically AWS), and DevOps.\n\nHere are the key highlights from his resume:\n\n**Work Experience:**\n\n*   **Senior Software Engineer at Stark Industries (2020 - Present):**\n    *   Leads a team in designing and developing a microservices-based platform.\n    *   Uses a tech stack including Python, Flask, React, Node.js, AWS (Lambda, S3, DynamoDB), Docker, and Kubernetes.\n    *   Key achievements include reducing application latency by 30% and improving system reliability by 25%.\n\n*   **Software Engineer at Wayne Enterprises (2018 - 2020):**\n    *   Developed and maintained a customer-facing web application using JavaScript, React, and Node.js.\n    *   Implemented a CI/CD pipeline with Jenkins that reduced deployment time by 50%.\n    *   Contributed to a 15% increase in user engagement.\n\n**Key Technical Skills:**\n\n*   **Languages:** Python, JavaScript, TypeScript, SQL\n*   **Frameworks:** React, Node.js, Flask, Express\n*   **Cloud/DevOps:** AWS (Lambda, S3, DynamoDB), Docker, Kubernetes, Jenkins, CI/CD\n*   **Databases:** PostgreSQL, MongoDB, DynamoDB\n\n**Education:**\n\n*   He holds a **Master of Science in Computer Science** from Gotham University.\n*   He also has a **Bachelor of Science in Computer Science** from Metropolis University.\n\n**Personal Projects:**\n\n*   The resume lists two significant personal",
+    "document_ref": "",
+    "response_time": 21.574674129486084,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-05T20:37:22.855161",
+    "session_id": "46fe944f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the  sam-resume.pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

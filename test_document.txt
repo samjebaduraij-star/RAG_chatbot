@@ -1,0 +1,30 @@
+Advanced Q&A Chatbot Test Document
+
+This is a test document to verify the document processing functionality of the Advanced Q&A Chatbot application.
+
+Key Features:
+- Multi-format document support (PDF, DOCX, TXT, CSV)
+- Gemini 2.5 AI integration for conversational responses
+- Semantic document search with embeddings
+- Persistent chat history management
+- File upload and processing capabilities
+
+Technical Stack:
+- Frontend: Streamlit with modular UI components
+- Backend: FastAPI with REST API endpoints
+- AI/ML: Google Generative AI, sentence-transformers
+- Document Processing: PyPDF2, python-docx, pdfplumber
+
+Test Questions:
+1. What are the key features of this chatbot?
+2. What technical stack is used?
+3. How does document processing work?
+4. What AI model is integrated?
+
+This document can be used to test:
+- File upload functionality
+- Text extraction and processing
+- Semantic search capabilities
+- AI-powered question answering based on document content
+
+The application should be able to process this document and answer questions about its content using the integrated AI model.

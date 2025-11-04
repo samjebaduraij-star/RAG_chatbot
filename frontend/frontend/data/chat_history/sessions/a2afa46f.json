@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-08-31T23:08:19.120517",
+    "session_id": "a2afa46f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nHowever, I can't directly access or \"see\" the PDF file you're referring to. To summarize it for you, please **copy the text from the PDF and paste it into our chat.**\n\nOnce you provide the text, I can:\n\n*   Create a concise summary of the entire document.\n*   Pull out the key points and main arguments.\n*   Answer any specific questions you have about the content.\n\nI'm ready when you are",
+    "document_ref": "",
+    "response_time": 14.790067911148071,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:08:19.123894",
+    "session_id": "a2afa46f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:10:04.297609",
+    "session_id": "a2afa46f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Hello! I have reviewed the resume for Sam Jebadurai J. I am ready to answer any questions you have about his profile based on the document provided.\n\nHow can I help you today?",
+    "document_ref": "",
+    "response_time": 10.847412109375,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:10:04.301572",
+    "session_id": "a2afa46f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "SAM JEBADURAI J\nJUNIOR DATA ENGINEER\nPROFESSIONAL SUMMARY\nEnthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,\nSQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.\nEager to contribute to real-world AI applications in a collaborative and learning focused environment.\nCONTACT\nPhone: +91 9345371738\nEmail: samjebaduraij@gmail.com\nEDUCATION\nKarunya Institute of Technology and\nSciences,coimbatore\nB.Tech Artificial Intelligence & Data Science, CGPA - 6.12\nCampion Anglo Indian School,Trichy\nClass 10 -79.8% June 2018 - May 2019\nClass 12 -81.10% June 2020 - May 2021\nAddress: 111,balagi Nagar 5 th\nlalgudi,Trichy-620001\neast cross Aangarai\nPROJECTS\nWeb Scrapping\nCreated a Python-based web scraper using Flask and PyPDF to extract and organize data from\nwebsites and PDFs automatically.\nApplied advanced scraping techniques to capture key data, reducing manual data processing time.\nNetwork Intrusion detection System\nDeveloped a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,\nIsolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.\nCombined model outputs using a Random Forest classifier to improve accuracy and effectively\nclassify network traffic as normal or attack using the CICIDS 2017 dataset.\nCERTIFICATIONS\nPython Programming (Udemy)\nSQL Mastery (Udemy)\nTECHNICAL SKILLS\nTechnologies: Machine Learning, Web Development,\nDatabase Management\nProgramming: Python, SQL, Java\nLANGUAGES\nENGLISH\nTAMIL\nRecognition for Extended Research Paper",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:10:40.372620",
+    "session_id": "a2afa46f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nPlease provide the document or text you would like me to summarize. Once you share the content, I will create a concise summary for you.",
+    "document_ref": "",
+    "response_time": 8.37878131866455,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:10:40.374641",
+    "session_id": "a2afa46f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

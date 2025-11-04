@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-08-31T23:04:40.264784",
+    "session_id": "785880af",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nHowever, I can't see the PDF you're referring to. Please provide the document's content so I can summarize it for you.\n\nHere are a few ways you can do that:\n*   **Copy and paste** the text from the PDF directly into our chat.\n*   Use the **upload feature** (if available, it often looks like a paperclip 📎) to attach the file.\n*   If the document is online, you can **share a link** to it.\n\nOnce you've provided the content, I'll get right to work on the summary",
+    "document_ref": "",
+    "response_time": 13.543865203857422,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:04:40.265678",
+    "session_id": "785880af",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

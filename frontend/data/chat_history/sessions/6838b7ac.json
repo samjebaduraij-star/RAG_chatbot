@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-09-25T19:41:40.965931",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! Based on the documents provided, here is a summary of the content about Acme Bank:\n\nThe documents provide an overview of Acme Bank's services, focusing on its digital platform, account fees, customer support, and security measures.\n\nHere are the key points:\n\n*   **Digital Banking:** Acme Bank offers a new digital banking platform available on the web, iOS, and Android. Key features include a personalized dashboard, mobile check deposit, real-time alerts, and advanced security like biometrics and two-factor authentication (doc_id: 1).\n\n*   **Account Fees:**\n    *   **Basic Checking:** Has a $10 monthly fee, which is waived with a minimum balance of $500 or a direct deposit.\n    *   **Premium Checking:** Has a $25 monthly fee, waived with a combined balance of $10,000.\n    *   **Standard Savings:** Has a $5 monthly fee, waived with a balance of $300.\n    *   Other fees include a $35 overdraft fee and various fees for wire transfers (doc_id: 2).\n\n*   **Customer Support:** You can contact Acme Bank in several ways:\n    *   **Phone:** 24/7 support is available.\n    *   **Live Chat:** Available on their website from Monday to Friday, 8 AM to 6 PM.\n    *   **Secure Messaging:** Available through the digital banking platform (doc_id: 3).\n\n*   **Security:** The bank emphasizes security through measures like multi-factor authentication (MFA), encryption, and active fraud monitoring. They also advise customers to use strong, unique passwords and be cautious of phishing attempts (doc_id: 4).",
+    "document_ref": "",
+    "response_time": 19.053401708602905,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:41:40.970418",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the given content",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:43:32.634047",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! Since I don't have any specific documents to pull from for this request, I'll draw from my general knowledge.\n\nTo help me pick the perfect one, what kind of mood are you in? Are you looking for something happy, relaxing, energetic, or thoughtful?\n\nIf you just want a classic, feel-good song, you can't go wrong with **\"Here Comes The Sun\" by The Beatles**. It's a lovely and optimistic tune",
+    "document_ref": "",
+    "response_time": 51.06186509132385,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:43:32.639337",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "give me a song",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:45:49.609284",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nHowever, it seems no documents or text have been uploaded yet. Please provide the content you would like me to summarize, and I'll get right on it for you.",
+    "document_ref": "",
+    "response_time": 32.66233706474304,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:45:49.612535",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the uploaded content",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:47:58.193076",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "⚠️ API quota limit reached after multiple retry attempts. Please wait a few minutes before trying again. Document processing is still available.",
+    "document_ref": "",
+    "response_time": 54.620965242385864,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T19:47:58.198091",
+    "session_id": "6838b7ac",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the uploaded content",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

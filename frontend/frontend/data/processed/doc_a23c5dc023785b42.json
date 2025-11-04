@@ -1,0 +1,45 @@
+{
+  "id": "doc_a23c5dc023785b42",
+  "filename": "sam-resume.pdf",
+  "file_type": "application/pdf",
+  "processed_at": "2025-08-31T23:02:10.341391",
+  "metadata": {
+    "filename": "sam-resume.pdf",
+    "file_type": "application/pdf",
+    "file_size": 87201,
+    "created_at": "2025-08-31T23:02:10.248227",
+    "modified_at": "2025-08-31T23:02:10.248227",
+    "file_extension": ".pdf",
+    "page_count": 1,
+    "pdf_version": "%PDF-1.4",
+    "is_encrypted": false,
+    "title": "Systems Design Resume in White Black Simple Style",
+    "author": "J. SAM JEBADURAI 12A113",
+    "subject": "",
+    "creator": "Canva",
+    "producer": "iOS Version 18.5 (Build 22F76) Quartz PDFContext, AppendMode 1.1",
+    "creation_date": "D:20250517111457+00'00'",
+    "modification_date": "D:20250615144410Z00'00'"
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "content": "SAM JEBADURAI JJUNIOR DATA ENGINEERPROFESSIONAL SUMMARYEnthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,SQL, and machine learning.",
+      "length": 185,
+      "sentence_count": 1,
+      "start_position": 0,
+      "end_position": 185
+    },
+    {
+      "id": 1,
+      "content": "SAM JEBADURAI JJUNIOR DATA ENGINEERPROFESSIONAL SUMMARYEnthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,SQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.Eager to contribute to real-world AI applications in a collaborative and learning focused environment.CONTACTPhone: +91 9345371738 Address: 111,balagi Nagar 5th east cross AangaraiEmail: samjebaduraij@gmail.com lalgudi,Trichy-620001EDUCATIONKarunya Institute of Technology andSciences,coimbatoreB.Tech Artificial Intelligence & Data Science, CGPA - 6.12Campion Anglo Indian School,TrichyClass 10 -79.8% June 2018 - May 2019Class 12 -81.10% June 2020 - May 2021PROJECTSWeb ScrappingCreated a Python-based web scraper using Flask and PyPDF to extract and organize data fromwebsites and PDFs automatically.Applied advanced scraping techniques to capture key data, reducing manual data processing time.Network Intrusion detection SystemDeveloped a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,Isolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.Combined model outputs using a Random Forest classifier to improve accuracy and effectivelyclassify network traffic as normal or attack using the CICIDS 2017 dataset.CERTIFICATIONSPython Programming (Udemy)SQL Mastery (Udemy)TECHNICAL SKILLSTechnologies: Machine Learning, Web Development,Database ManagementProgramming: Python, SQL, JavaLANGUAGESENGLISHTAMILRecognition for Extended Research Paper",
+      "length": 1578,
+      "sentence_count": 2,
+      "start_position": 185,
+      "end_position": 1763
+    }
+  ],
+  "chunk_count": 2,
+  "total_characters": 1614,
+  "total_words": 215
+}

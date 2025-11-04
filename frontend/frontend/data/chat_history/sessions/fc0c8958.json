@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-08-31T22:42:33.570874",
+    "session_id": "fc0c8958",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "❌ Error: RetryError[<Future at 0x3577115b0 state=finished raised ResourceExhausted>]",
+    "document_ref": "",
+    "response_time": 10.907918214797974,
+    "model_used": "error",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T22:42:33.572694",
+    "session_id": "fc0c8958",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

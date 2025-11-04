@@ -1,0 +1,236 @@
+timestamp,user_id,session_id,message_type,content,document_ref,response_time,model_used,tokens_used,confidence_score
+2025-08-31T22:36:11.702440,default_user,6c19685a,assistant,"I apologize, but I encountered an error while processing your request. Please try again.",,10.327381134033203,error,0,0.0
+2025-08-31T22:36:11.706118,default_user,6c19685a,user,summarise this document ,,0.0,,0,0.0
+2025-08-31T22:39:39.633348,default_user,a65c886f,assistant,"I apologize, but I encountered an error while processing your request. Please try again.",,11.042114973068237,error,0,0.0
+2025-08-31T22:39:39.635183,default_user,a65c886f,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T22:42:33.570874,default_user,fc0c8958,assistant,❌ Error: RetryError[<Future at 0x3577115b0 state=finished raised ResourceExhausted>],,10.907918214797974,error,0,0.0
+2025-08-31T22:42:33.572694,default_user,fc0c8958,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T22:45:13.409264,default_user,d3104d85,assistant,❌ Error: 'ChatManager' object has no attribute 'model_name',,12.057958841323853,error,0,0.0
+2025-08-31T22:45:13.412374,default_user,d3104d85,user,summarize this  pdf,,0.0,,0,0.0
+2025-08-31T22:46:55.868841,default_user,5c999db0,assistant,⚠️ API quota limit reached after multiple retry attempts. Please wait a few minutes before trying again. Document processing is still available.,,11.029703855514526,gemini-2.5-pro,0,0.0
+2025-08-31T22:46:55.871180,default_user,5c999db0,user,summarise this pdf ,,0.0,,0,0.0
+2025-08-31T22:54:50.732524,default_user,3d7e3e3e,assistant,"Of course, I can help with that!
+
+Please provide the PDF you would like me to summarize.
+
+Since I can't view files directly, you can either:
+
+*   **Copy and paste the text** from the document directly into our chat.
+*   **Provide a public link** to the PDF if it's available online.
+
+Once you provide the content, I'll give you a clear and concise summary. I'm ready when you are",,14.040082216262817,gemini-2.5-pro,0,0.0
+2025-08-31T22:54:50.735581,default_user,3d7e3e3e,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T22:56:58.358827,default_user,7be47de5,assistant,"Of course, I can help with that.
+
+Please provide the PDF you would like me to summarize. You can usually upload a file using the attachment icon (it often looks like a paperclip 📎) in the chat window.
+
+Once you've shared it, I'll get right to work on creating a concise summary for you",,10.672237873077393,gemini-2.5-pro,0,0.0
+2025-08-31T22:56:58.362444,default_user,7be47de5,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T23:01:34.379554,default_user,d185d8b5,assistant,"Of course, I can help with that!
+
+However, you haven't provided a PDF for me to summarize. Please provide the document in one of the following ways:
+
+1.  **Copy and paste the text** from the PDF directly into our chat.
+2.  **Upload the file** if you see an option to attach a document (often a paperclip icon 📎).
+3.  **Share a link** if the PDF is available online.
+
+Once you provide the content, I will create a concise and accurate summary for you. I'm ready when you are",,11.994149208068848,gemini-2.5-pro,0,0.0
+2025-08-31T23:01:34.382357,default_user,d185d8b5,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T23:02:35.812068,default_user,28bc4905,assistant,"Of course, I can help with that.
+
+Please provide the PDF you would like me to summarize.
+
+Since I can't access local files or links, the best way to do this is to **copy the text from the PDF and paste it directly into our chat**.
+
+Once you provide the content, I will create a concise and accurate summary for you. I'm ready when you are",,13.880169868469238,gemini-2.5-pro,0,0.0
+2025-08-31T23:02:35.815253,default_user,28bc4905,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T23:04:40.264784,default_user,785880af,assistant,"Of course, I can help with that!
+
+However, I can't see the PDF you're referring to. Please provide the document's content so I can summarize it for you.
+
+Here are a few ways you can do that:
+*   **Copy and paste** the text from the PDF directly into our chat.
+*   Use the **upload feature** (if available, it often looks like a paperclip 📎) to attach the file.
+*   If the document is online, you can **share a link** to it.
+
+Once you've provided the content, I'll get right to work on the summary",,13.543865203857422,gemini-2.5-pro,0,0.0
+2025-08-31T23:04:40.265678,default_user,785880af,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T23:07:38.407234,default_user,b87867fc,assistant,"Of course, I can help with that!
+
+Please provide the PDF document you would like me to summarize. You can do this in a few ways:
+
+*   **Upload the file:** If you see an attachment option (like a paperclip icon 📎), you can upload the file directly.
+*   **Paste the text:** You can copy the text from the PDF and paste it into our chat.
+*   **Share a link:** If the PDF is available online, you can provide the link.
+
+Once you've shared the document, I will read it and provide you with a concise summary of its key points. I'm ready when you are",,10.763845920562744,gemini-2.5-pro,0,0.0
+2025-08-31T23:07:38.409116,default_user,b87867fc,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T23:08:19.120517,default_user,a2afa46f,assistant,"Of course, I can help with that!
+
+However, I can't directly access or ""see"" the PDF file you're referring to. To summarize it for you, please **copy the text from the PDF and paste it into our chat.**
+
+Once you provide the text, I can:
+
+*   Create a concise summary of the entire document.
+*   Pull out the key points and main arguments.
+*   Answer any specific questions you have about the content.
+
+I'm ready when you are",,14.790067911148071,gemini-2.5-pro,0,0.0
+2025-08-31T23:08:19.123894,default_user,a2afa46f,user,summarise this pdf,,0.0,,0,0.0
+2025-08-31T23:10:04.297609,default_user,a2afa46f,assistant,"Hello! I have reviewed the resume for Sam Jebadurai J. I am ready to answer any questions you have about his profile based on the document provided.
+
+How can I help you today?",,10.847412109375,gemini-2.5-pro,0,0.0
+2025-08-31T23:10:04.301572,default_user,a2afa46f,user,"SAM JEBADURAI J
+JUNIOR DATA ENGINEER
+PROFESSIONAL SUMMARY
+Enthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,
+SQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.
+Eager to contribute to real-world AI applications in a collaborative and learning focused environment.
+CONTACT
+Phone: +91 9345371738
+Email: samjebaduraij@gmail.com
+EDUCATION
+Karunya Institute of Technology and
+Sciences,coimbatore
+B.Tech Artificial Intelligence & Data Science, CGPA - 6.12
+Campion Anglo Indian School,Trichy
+Class 10 -79.8% June 2018 - May 2019
+Class 12 -81.10% June 2020 - May 2021
+Address: 111,balagi Nagar 5 th
+lalgudi,Trichy-620001
+east cross Aangarai
+PROJECTS
+Web Scrapping
+Created a Python-based web scraper using Flask and PyPDF to extract and organize data from
+websites and PDFs automatically.
+Applied advanced scraping techniques to capture key data, reducing manual data processing time.
+Network Intrusion detection System
+Developed a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,
+Isolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.
+Combined model outputs using a Random Forest classifier to improve accuracy and effectively
+classify network traffic as normal or attack using the CICIDS 2017 dataset.
+CERTIFICATIONS
+Python Programming (Udemy)
+SQL Mastery (Udemy)
+TECHNICAL SKILLS
+Technologies: Machine Learning, Web Development,
+Database Management
+Programming: Python, SQL, Java
+LANGUAGES
+ENGLISH
+TAMIL
+Recognition for Extended Research Paper",,0.0,,0,0.0
+2025-08-31T23:10:40.372620,default_user,a2afa46f,assistant,"Of course, I can help with that!
+
+Please provide the document or text you would like me to summarize. Once you share the content, I will create a concise summary for you.",,8.37878131866455,gemini-2.5-pro,0,0.0
+2025-08-31T23:10:40.374641,default_user,a2afa46f,user,summarise this,,0.0,,0,0.0
+2025-08-31T23:11:44.749941,default_user,6a85e49d,assistant,"Of course, I can help with that!
+
+However, I can't see any files or PDFs that you have. To summarize it for you, please provide the content of the PDF in one of these ways:
+
+1.  **Copy and paste the text** from the PDF directly into our chat.
+2.  **Upload the file** if you see a paperclip icon (📎) or an attachment option.
+3.  If the document is online, you can **provide a link** to it.
+
+Once you provide the content, I'll get right to work on creating a concise and accurate summary for you.",,11.704069137573242,gemini-2.5-pro,0,0.0
+2025-08-31T23:11:44.751911,default_user,6a85e49d,user,summarize this PDF,,0.0,,0,0.0
+2025-08-31T23:12:12.490332,default_user,6a85e49d,assistant,"Of course! I have reviewed the provided resume for Sam Jebadurai J.
+
+I am ready to answer any questions you may have about his professional summary, skills, projects, or education based on this document. How can I help you?",,10.264302730560303,gemini-2.5-pro,0,0.0
+2025-08-31T23:12:12.493992,default_user,6a85e49d,user,"SAM JEBADURAI J
+JUNIOR DATA ENGINEER
+PROFESSIONAL SUMMARY
+Enthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,
+SQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.
+Eager to contribute to real-world AI applications in a collaborative and learning focused environment.
+CONTACT
+Phone: +91 9345371738
+Email: samjebaduraij@gmail.com
+EDUCATION
+Karunya Institute of Technology and
+Sciences,coimbatore
+B.Tech Artificial Intelligence & Data Science, CGPA - 6.12
+Campion Anglo Indian School,Trichy
+Class 10 -79.8% June 2018 - May 2019
+Class 12 -81.10% June 2020 - May 2021
+Address: 111,balagi Nagar 5 th
+lalgudi,Trichy-620001
+east cross Aangarai
+PROJECTS
+Web Scrapping
+Created a Python-based web scraper using Flask and PyPDF to extract and organize data from
+websites and PDFs automatically.
+Applied advanced scraping techniques to capture key data, reducing manual data processing time.
+Network Intrusion detection System
+Developed a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,
+Isolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.
+Combined model outputs using a Random Forest classifier to improve accuracy and effectively
+classify network traffic as normal or attack using the CICIDS 2017 dataset.
+CERTIFICATIONS
+Python Programming (Udemy)
+SQL Mastery (Udemy)
+TECHNICAL SKILLS
+Technologies: Machine Learning, Web Development,
+Database Management
+Programming: Python, SQL, Java
+LANGUAGES
+ENGLISH
+TAMIL
+Recognition for Extended Research Paper",,0.0,,0,0.0
+2025-08-31T23:12:31.976782,default_user,6a85e49d,assistant,"Of course, I can help with that!
+
+Please provide the text, document, or topic you would like me to summarize. You can paste it directly into our chat. Once you do, I'll create a clear and concise summary for you.",,8.556740283966064,gemini-2.5-pro,0,0.0
+2025-08-31T23:12:31.981230,default_user,6a85e49d,user,summarise this,,0.0,,0,0.0
+2025-08-31T23:13:04.797999,default_user,6a85e49d,assistant,"Of course. Here is a summary of the provided resume for Sam Jebadurai J:
+
+Sam Jebadurai J is a Junior Data Engineer with a B.Tech in Artificial Intelligence & Data Science from Karunya Institute of Technology and Sciences.
+
+**Key Highlights:**
+
+*   **Skills:** He is proficient in Python, SQL, and machine learning, with experience in web development and database management.
+*   **Projects:** He has hands-on experience building a Python-based web scraper to automate data extraction and developing a complex Network Intrusion Detection System using models like Autoencoder, K-Means, and Random Forest.
+*   **Certifications:** He holds certifications in Python Programming and SQL Mastery from Udemy.
+*   **Objective:** Sam is eager to apply his skills to real-world AI applications in a collaborative and learning-focused environment.",,13.176640033721924,gemini-2.5-pro,0,0.0
+2025-08-31T23:13:04.801444,default_user,6a85e49d,user,"SAM JEBADURAI J
+JUNIOR DATA ENGINEER
+PROFESSIONAL SUMMARY
+Enthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,
+SQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.
+Eager to contribute to real-world AI applications in a collaborative and learning focused environment.
+CONTACT
+Phone: +91 9345371738
+Email: samjebaduraij@gmail.com
+EDUCATION
+Karunya Institute of Technology and
+Sciences,coimbatore
+B.Tech Artificial Intelligence & Data Science, CGPA - 6.12
+Campion Anglo Indian School,Trichy
+Class 10 -79.8% June 2018 - May 2019
+Class 12 -81.10% June 2020 - May 2021
+Address: 111,balagi Nagar 5 th
+lalgudi,Trichy-620001
+east cross Aangarai
+PROJECTS
+Web Scrapping
+Created a Python-based web scraper using Flask and PyPDF to extract and organize data from
+websites and PDFs automatically.
+Applied advanced scraping techniques to capture key data, reducing manual data processing time.
+Network Intrusion detection System
+Developed a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,
+Isolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.
+Combined model outputs using a Random Forest classifier to improve accuracy and effectively
+classify network traffic as normal or attack using the CICIDS 2017 dataset.
+CERTIFICATIONS
+Python Programming (Udemy)
+SQL Mastery (Udemy)
+TECHNICAL SKILLS
+Technologies: Machine Learning, Web Development,
+Database Management
+Programming: Python, SQL, Java
+LANGUAGES
+ENGLISH
+TAMIL
+Recognition for Extended Research Paper
+
+
+summarise this ",,0.0,,0,0.0

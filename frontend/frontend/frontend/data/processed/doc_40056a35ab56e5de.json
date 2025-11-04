@@ -1,0 +1,381 @@
+{
+  "id": "doc_40056a35ab56e5de",
+  "filename": "paper.pdf",
+  "file_type": "application/pdf",
+  "processed_at": "2025-08-31T23:04:16.936073",
+  "metadata": {
+    "filename": "paper.pdf",
+    "file_type": "application/pdf",
+    "file_size": 832440,
+    "created_at": "2025-08-31T23:04:16.337032",
+    "modified_at": "2025-08-31T23:04:16.337032",
+    "file_extension": ".pdf",
+    "page_count": 5,
+    "pdf_version": "%PDF-1.7",
+    "is_encrypted": false,
+    "title": "Microsoft Word - PHILIP_SIMON_DEROCK.docx",
+    "author": "simonh simonh",
+    "subject": "",
+    "creator": "",
+    "producer": "Microsoft: Print To PDF",
+    "creation_date": "D:20250407225935+05'30'",
+    "modification_date": "D:20250407225935+05'30'"
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "content": "Scalable Deployment of LLMs on PortableComputing Devices: Harnessing Ollama andComputational Optimization with RAGJenefa A Philip Simon Derock PSchool of CST School of CSTKarunya Institute of Tech. Karunya Institute of Tech and Sci.Coimbatore, India Coimbatore, Indiajenefaa@karunya.edu philipsimonk@karunya.edu.inAbstract--The rapid proliferation of portable AI-driven com- computing solutions that mitigate latency constraints, privacyputational infrastructures has necessitated the improvement of vulnerabilities, and computational bottlenecks [1] [2]self-contained, aid-optimized inference servers capable of sus-Traditional cloud-driven AI pipelines, while offering scal-taining real-time model execution in decentralized and network-able processing power, inherently suffer from network-inducedimpartial environments.",
+      "length": 823,
+      "sentence_count": 2,
+      "start_position": 0,
+      "end_position": 823
+    },
+    {
+      "id": 1,
+      "content": "Scalable Deployment of LLMs on PortableComputing Devices: Harnessing Ollama andComputational Optimization with RAGJenefa A Philip Simon Derock PSchool of CST School of CSTKarunya Institute of Tech. Karunya Institute of Tech and Sci.Coimbatore, India Coimbatore, Indiajenefaa@karunya.edu philipsimonk@karunya.edu.inAbstract--The rapid proliferation of portable AI-driven com- computing solutions that mitigate latency constraints, privacyputational infrastructures has necessitated the improvement of vulnerabilities, and computational bottlenecks [1] [2]self-contained, aid-optimized inference servers capable of sus-Traditional cloud-driven AI pipelines, while offering scal-taining real-time model execution in decentralized and network-able processing power, inherently suffer from network-inducedimpartial environments. This paper offers a wirelessly deployable,transportable AI server, meticulously engineered to host and delays, bandwidth limitations, and dependency on persistentserve LLM-primarily based AI models, such as DeepSeek-r1, cloud connectivity, rendering them suboptimal for mission-Llama2, Mistral, and TinyLlama, inside a fully independent critical and real-time applications [2].Ubuntu-based ecosystem.",
+      "length": 1224,
+      "sentence_count": 3,
+      "start_position": 823,
+      "end_position": 2047
+    },
+    {
+      "id": 2,
+      "content": "Karunya Institute of Tech and Sci.Coimbatore, India Coimbatore, Indiajenefaa@karunya.edu philipsimonk@karunya.edu.inAbstract--The rapid proliferation of portable AI-driven com- computing solutions that mitigate latency constraints, privacyputational infrastructures has necessitated the improvement of vulnerabilities, and computational bottlenecks [1] [2]self-contained, aid-optimized inference servers capable of sus-Traditional cloud-driven AI pipelines, while offering scal-taining real-time model execution in decentralized and network-able processing power, inherently suffer from network-inducedimpartial environments. This paper offers a wirelessly deployable,transportable AI server, meticulously engineered to host and delays, bandwidth limitations, and dependency on persistentserve LLM-primarily based AI models, such as DeepSeek-r1, cloud connectivity, rendering them suboptimal for mission-Llama2, Mistral, and TinyLlama, inside a fully independent critical and real-time applications [2].Ubuntu-based ecosystem. The server is implemented on a devotedConsequently, there is a pronounced impetus toward local-Ubuntu Server instance, getting rid of reliance on traditionalized AI inferencing, wherein AI models are executed on self-Ethernet-primarily based networking via leveraging each bothwifi and mobile hotspot connectivity, ensuring ubiquitous ac- contained, portable computing infrastructures, circumventingcessibility across numerous network environments.",
+      "length": 1475,
+      "sentence_count": 3,
+      "start_position": 2047,
+      "end_position": 3522
+    },
+    {
+      "id": 3,
+      "content": "This paper offers a wirelessly deployable,transportable AI server, meticulously engineered to host and delays, bandwidth limitations, and dependency on persistentserve LLM-primarily based AI models, such as DeepSeek-r1, cloud connectivity, rendering them suboptimal for mission-Llama2, Mistral, and TinyLlama, inside a fully independent critical and real-time applications [2].Ubuntu-based ecosystem. The server is implemented on a devotedConsequently, there is a pronounced impetus toward local-Ubuntu Server instance, getting rid of reliance on traditionalized AI inferencing, wherein AI models are executed on self-Ethernet-primarily based networking via leveraging each bothwifi and mobile hotspot connectivity, ensuring ubiquitous ac- contained, portable computing infrastructures, circumventingcessibility across numerous network environments. The deploy- cloud-related inefficiencies while retaining computational ro-ment architecture integrates a custom designed Streamlit based bustness [5].",
+      "length": 1000,
+      "sentence_count": 3,
+      "start_position": 3522,
+      "end_position": 4522
+    },
+    {
+      "id": 4,
+      "content": "The server is implemented on a devotedConsequently, there is a pronounced impetus toward local-Ubuntu Server instance, getting rid of reliance on traditionalized AI inferencing, wherein AI models are executed on self-Ethernet-primarily based networking via leveraging each bothwifi and mobile hotspot connectivity, ensuring ubiquitous ac- contained, portable computing infrastructures, circumventingcessibility across numerous network environments. The deploy- cloud-related inefficiencies while retaining computational ro-ment architecture integrates a custom designed Streamlit based bustness [5]. Recent advancements in large language modelstotally web UI, allowing seamless person interplay and on-(LLMs) and generative AI architectures have further accen-demand inferencing.",
+      "length": 779,
+      "sentence_count": 3,
+      "start_position": 4522,
+      "end_position": 5301
+    },
+    {
+      "id": 5,
+      "content": "The deploy- cloud-related inefficiencies while retaining computational ro-ment architecture integrates a custom designed Streamlit based bustness [5]. Recent advancements in large language modelstotally web UI, allowing seamless person interplay and on-(LLMs) and generative AI architectures have further accen-demand inferencing. performance is optimized through machine-tuated the necessity for efficient, decentralized inferencinglevel kernel tuning, intelligent memory allocation strategies, anddynamic inference workload balancing, making sure low-latency mechanisms, particularly given the non-deterministic naturereaction times and wi-fi efficient wireless computational overhead of LLMs, which poses significant challenges in log parsing,management.",
+      "length": 757,
+      "sentence_count": 3,
+      "start_position": 5301,
+      "end_position": 6058
+    },
+    {
+      "id": 6,
+      "content": "Recent advancements in large language modelstotally web UI, allowing seamless person interplay and on-(LLMs) and generative AI architectures have further accen-demand inferencing. performance is optimized through machine-tuated the necessity for efficient, decentralized inferencinglevel kernel tuning, intelligent memory allocation strategies, anddynamic inference workload balancing, making sure low-latency mechanisms, particularly given the non-deterministic naturereaction times and wi-fi efficient wireless computational overhead of LLMs, which poses significant challenges in log parsing,management. furthermore, empirical benchmarks validate the structured reasoning, and deterministic output generation [3].device's robustness, and sustained inference of wireless under-The integration of embedding-based vector retrieval mech-neath varying workloads.",
+      "length": 860,
+      "sentence_count": 3,
+      "start_position": 6058,
+      "end_position": 6918
+    },
+    {
+      "id": 7,
+      "content": "performance is optimized through machine-tuated the necessity for efficient, decentralized inferencinglevel kernel tuning, intelligent memory allocation strategies, anddynamic inference workload balancing, making sure low-latency mechanisms, particularly given the non-deterministic naturereaction times and wi-fi efficient wireless computational overhead of LLMs, which poses significant challenges in log parsing,management. furthermore, empirical benchmarks validate the structured reasoning, and deterministic output generation [3].device's robustness, and sustained inference of wireless under-The integration of embedding-based vector retrieval mech-neath varying workloads. through obviating the need for cloud-anisms, leveraging semantic similarity techniques, has provenprimarily based AI inferencing, the proposed structure estab-lishes a noticeably adaptable, transportable, and fee-powerful instrumental in enhancing AI-driven conversational systems,AI deployment paradigm, suitable for neighbourhood network- enabling contextually relevant and lexically precise responsesbased AI studies, prototyping, and decentralized model serving.",
+      "length": 1147,
+      "sentence_count": 3,
+      "start_position": 6918,
+      "end_position": 8065
+    },
+    {
+      "id": 8,
+      "content": "furthermore, empirical benchmarks validate the structured reasoning, and deterministic output generation [3].device's robustness, and sustained inference of wireless under-The integration of embedding-based vector retrieval mech-neath varying workloads. through obviating the need for cloud-anisms, leveraging semantic similarity techniques, has provenprimarily based AI inferencing, the proposed structure estab-lishes a noticeably adaptable, transportable, and fee-powerful instrumental in enhancing AI-driven conversational systems,AI deployment paradigm, suitable for neighbourhood network- enabling contextually relevant and lexically precise responsesbased AI studies, prototyping, and decentralized model serving. However, despite the proliferation of AI- drivenfuture improvements encompass wi-fi-grained model compres-search augmentation via vectorized embeddings, the efficacysion strategies, hardware-extended AI inference leveraging GPUof cosine similarity as a measure of conceptual relatednessoffloading, and security for the wireless actions to beautifyresilience towards adversarial community environments remains a subject of scrutiny, necessitating further empiricalvalidation [10].Index Terms--AI server, Embedded AI, Real-time AI Infer-ence, Open-source AI Models, RAG Module,Vector embeddings.",
+      "length": 1314,
+      "sentence_count": 3,
+      "start_position": 8065,
+      "end_position": 9379
+    },
+    {
+      "id": 9,
+      "content": "through obviating the need for cloud-anisms, leveraging semantic similarity techniques, has provenprimarily based AI inferencing, the proposed structure estab-lishes a noticeably adaptable, transportable, and fee-powerful instrumental in enhancing AI-driven conversational systems,AI deployment paradigm, suitable for neighbourhood network- enabling contextually relevant and lexically precise responsesbased AI studies, prototyping, and decentralized model serving. However, despite the proliferation of AI- drivenfuture improvements encompass wi-fi-grained model compres-search augmentation via vectorized embeddings, the efficacysion strategies, hardware-extended AI inference leveraging GPUof cosine similarity as a measure of conceptual relatednessoffloading, and security for the wireless actions to beautifyresilience towards adversarial community environments remains a subject of scrutiny, necessitating further empiricalvalidation [10].Index Terms--AI server, Embedded AI, Real-time AI Infer-ence, Open-source AI Models, RAG Module,Vector embeddings. From an infrastructural standpoint, the concept of a per-sonalized AI server aligns with contemporary research onrepurposing consumer-grade hardware for high-performanceI.",
+      "length": 1232,
+      "sentence_count": 3,
+      "start_position": 9379,
+      "end_position": 10611
+    },
+    {
+      "id": 10,
+      "content": "However, despite the proliferation of AI- drivenfuture improvements encompass wi-fi-grained model compres-search augmentation via vectorized embeddings, the efficacysion strategies, hardware-extended AI inference leveraging GPUof cosine similarity as a measure of conceptual relatednessoffloading, and security for the wireless actions to beautifyresilience towards adversarial community environments remains a subject of scrutiny, necessitating further empiricalvalidation [10].Index Terms--AI server, Embedded AI, Real-time AI Infer-ence, Open-source AI Models, RAG Module,Vector embeddings. From an infrastructural standpoint, the concept of a per-sonalized AI server aligns with contemporary research onrepurposing consumer-grade hardware for high-performanceI. INTRODUCTION AI workloads [5] [11].",
+      "length": 801,
+      "sentence_count": 3,
+      "start_position": 10611,
+      "end_position": 11412
+    },
+    {
+      "id": 11,
+      "content": "From an infrastructural standpoint, the concept of a per-sonalized AI server aligns with contemporary research onrepurposing consumer-grade hardware for high-performanceI. INTRODUCTION AI workloads [5] [11]. Investigations into mobile and edgeThe ubiquity of artificial intelligence (AI) inference work- computing paradigms indicate that commodity-grade laptops,loads has necessitated a paradigm shift from centralized cloud- when properly optimized, can rival the computational effi-based architectures to distributed, on- premises, and edge- ciency of conventional cloud-driven GPU clusters, therebyproviding a cost-efficient, network-independent AI inferencing which proved inadequate for semantic similarity matchingenvironment [11]. Modern methodologies employ vectorized search tech-In this work, we introduce the Portable AI Server with Ol- niques, such as cosine similarity, to refine query relevant con-lama, a self-sustained, mobile AI inference system, engineered tent selection [6].",
+      "length": 994,
+      "sentence_count": 4,
+      "start_position": 11412,
+      "end_position": 12406
+    },
+    {
+      "id": 12,
+      "content": "Investigations into mobile and edgeThe ubiquity of artificial intelligence (AI) inference work- computing paradigms indicate that commodity-grade laptops,loads has necessitated a paradigm shift from centralized cloud- when properly optimized, can rival the computational effi-based architectures to distributed, on- premises, and edge- ciency of conventional cloud-driven GPU clusters, therebyproviding a cost-efficient, network-independent AI inferencing which proved inadequate for semantic similarity matchingenvironment [11]. Modern methodologies employ vectorized search tech-In this work, we introduce the Portable AI Server with Ol- niques, such as cosine similarity, to refine query relevant con-lama, a self-sustained, mobile AI inference system, engineered tent selection [6]. Our system integrates MySQL-backed re-to facilitate real-time LLM-based conversational AI without trieval augmentation, leveraging Ollama's embedding modelsreliance on cloud infrastructure to maintain conversational coherence and ensure persistenceuilt on a repurposed laptop this system leverages a dual-boot across AI interactionsUbuntu Live Server 22.04.2 configuration, a Streamlit-baseduser interface, and a MySQL-integrated chat history retrieval C.",
+      "length": 1242,
+      "sentence_count": 3,
+      "start_position": 12406,
+      "end_position": 13648
+    },
+    {
+      "id": 13,
+      "content": "Modern methodologies employ vectorized search tech-In this work, we introduce the Portable AI Server with Ol- niques, such as cosine similarity, to refine query relevant con-lama, a self-sustained, mobile AI inference system, engineered tent selection [6]. Our system integrates MySQL-backed re-to facilitate real-time LLM-based conversational AI without trieval augmentation, leveraging Ollama's embedding modelsreliance on cloud infrastructure to maintain conversational coherence and ensure persistenceuilt on a repurposed laptop this system leverages a dual-boot across AI interactionsUbuntu Live Server 22.04.2 configuration, a Streamlit-baseduser interface, and a MySQL-integrated chat history retrieval C. Contributions and Noveltymechanism to enable dynamic AI interactions with persistent While previous studies have examined cloud-hosted AIdata storage [7].",
+      "length": 867,
+      "sentence_count": 3,
+      "start_position": 13648,
+      "end_position": 14515
+    },
+    {
+      "id": 14,
+      "content": "Our system integrates MySQL-backed re-to facilitate real-time LLM-based conversational AI without trieval augmentation, leveraging Ollama's embedding modelsreliance on cloud infrastructure to maintain conversational coherence and ensure persistenceuilt on a repurposed laptop this system leverages a dual-boot across AI interactionsUbuntu Live Server 22.04.2 configuration, a Streamlit-baseduser interface, and a MySQL-integrated chat history retrieval C. Contributions and Noveltymechanism to enable dynamic AI interactions with persistent While previous studies have examined cloud-hosted AIdata storage [7]. Furthermore, the incorporation of Ollama em- inference, edge computing paradigms, and privacy-preservingbeddings for vectorized querymatching, coupled with cosine AI architectures, our work integrates these elements into a self-similarity-based retrieval, ensures efficient semantic search, sufficient, wireless AI server, hosted entirely on a repurposedquery disambiguation, and enhanced AI response contextual- laptop.",
+      "length": 1031,
+      "sentence_count": 3,
+      "start_position": 14515,
+      "end_position": 15546
+    },
+    {
+      "id": 15,
+      "content": "Contributions and Noveltymechanism to enable dynamic AI interactions with persistent While previous studies have examined cloud-hosted AIdata storage [7]. Furthermore, the incorporation of Ollama em- inference, edge computing paradigms, and privacy-preservingbeddings for vectorized querymatching, coupled with cosine AI architectures, our work integrates these elements into a self-similarity-based retrieval, ensures efficient semantic search, sufficient, wireless AI server, hosted entirely on a repurposedquery disambiguation, and enhanced AI response contextual- laptop. By enabling real-time LLM inference, embedding-ization [10].",
+      "length": 636,
+      "sentence_count": 3,
+      "start_position": 15546,
+      "end_position": 16182
+    },
+    {
+      "id": 16,
+      "content": "Furthermore, the incorporation of Ollama em- inference, edge computing paradigms, and privacy-preservingbeddings for vectorized querymatching, coupled with cosine AI architectures, our work integrates these elements into a self-similarity-based retrieval, ensures efficient semantic search, sufficient, wireless AI server, hosted entirely on a repurposedquery disambiguation, and enhanced AI response contextual- laptop. By enabling real-time LLM inference, embedding-ization [10]. Unlike traditional cloud-dependent AI models, based retrieval, and interactive AI chat interfaces within a fullythis system operates in an autonomous, privacy-preserving cloud-independent deployment, we contribute a cost-effective,framework, mitigating concerns related to data sovereignty, portable AI solution that addresses the limitations of traditionalsecurity vulnerabilities, and third-party model dependencies centralized AI hosting.[12].Additionally, our approach reduces reliance on externalcloud infrastructure, ensuring low-latency responses and en-II.",
+      "length": 1046,
+      "sentence_count": 3,
+      "start_position": 16182,
+      "end_position": 17228
+    },
+    {
+      "id": 17,
+      "content": "By enabling real-time LLM inference, embedding-ization [10]. Unlike traditional cloud-dependent AI models, based retrieval, and interactive AI chat interfaces within a fullythis system operates in an autonomous, privacy-preserving cloud-independent deployment, we contribute a cost-effective,framework, mitigating concerns related to data sovereignty, portable AI solution that addresses the limitations of traditionalsecurity vulnerabilities, and third-party model dependencies centralized AI hosting.[12].Additionally, our approach reduces reliance on externalcloud infrastructure, ensuring low-latency responses and en-II. RELATED WORKhanced data privacy for users.",
+      "length": 668,
+      "sentence_count": 3,
+      "start_position": 17228,
+      "end_position": 17896
+    },
+    {
+      "id": 18,
+      "content": "Unlike traditional cloud-dependent AI models, based retrieval, and interactive AI chat interfaces within a fullythis system operates in an autonomous, privacy-preserving cloud-independent deployment, we contribute a cost-effective,framework, mitigating concerns related to data sovereignty, portable AI solution that addresses the limitations of traditionalsecurity vulnerabilities, and third-party model dependencies centralized AI hosting.[12].Additionally, our approach reduces reliance on externalcloud infrastructure, ensuring low-latency responses and en-II. RELATED WORKhanced data privacy for users. The integration of retrieval-The deployment of portable AI servers leveraging localaugmented generation (RAG) memory further improves theinference has garnered significant interest as an alternativemodel's contextual understanding by dynamically retrievingto traditional cloud-based AI systems, addressing concernsand incorporating relevant past interactions.",
+      "length": 967,
+      "sentence_count": 3,
+      "start_position": 17896,
+      "end_position": 18863
+    },
+    {
+      "id": 19,
+      "content": "RELATED WORKhanced data privacy for users. The integration of retrieval-The deployment of portable AI servers leveraging localaugmented generation (RAG) memory further improves theinference has garnered significant interest as an alternativemodel's contextual understanding by dynamically retrievingto traditional cloud-based AI systems, addressing concernsand incorporating relevant past interactions. This architecturerelated to data sovereignty, network latency, and operationaldemonstrates the practical viability of deploying advancedautonomy. Conventional AI workloads are predominantly exe-AI capabilities on lightweight, portable hardware, expandingcuted in cloud environments, which, while offering scalability,accessibility for researchers, developers, and small enterprises.introduce privacy vulnerabilities, increased latency, and depen-dency on stable internet connectivity [1] [2]. Recent research III.",
+      "length": 916,
+      "sentence_count": 5,
+      "start_position": 18863,
+      "end_position": 19779
+    },
+    {
+      "id": 20,
+      "content": "Conventional AI workloads are predominantly exe-AI capabilities on lightweight, portable hardware, expandingcuted in cloud environments, which, while offering scalability,accessibility for researchers, developers, and small enterprises.introduce privacy vulnerabilities, increased latency, and depen-dency on stable internet connectivity [1] [2]. Recent research III. SYSTEM METHODOLOGYhighlights the necessity of on-premises AI solutions that oper-The Portable AI Server with Ollama is designed to pro-ate independently of cloud infrastructure while maintainingvide real-time, on-device AI inference without relying oncomputational efficiency [5] [12]. Our work contributes tocloud services. This system leverages a fully wireless net-this domain by repurposing consumer-grade laptop hardwarework architecture, allowing seamless accessibility and deploy-into a fully functional wireless AI inference server, capable ofment across diverse environments.",
+      "length": 952,
+      "sentence_count": 5,
+      "start_position": 19779,
+      "end_position": 20731
+    },
+    {
+      "id": 21,
+      "content": "Our work contributes tocloud services. This system leverages a fully wireless net-this domain by repurposing consumer-grade laptop hardwarework architecture, allowing seamless accessibility and deploy-into a fully functional wireless AI inference server, capable ofment across diverse environments. By integrating embedding-hosting and executing large language models (LLMs) locallybased retrieval, context-aware inference, and efficient queryA. AI Task Offloading and Edge AI processing, the system ensures high performance AI-drivensubsections detail the interactions.The system following archi-The increasing computational demands of AI models havetecture, data preprocessing techniques, retrieval mechanisms,led to research into offloading mechanisms, wherein inferenceAI model inference, wireless deployment, and end-to-endworkloads are dynamically distributed between local and cloudexecution workflowenvironments [1].",
+      "length": 924,
+      "sentence_count": 4,
+      "start_position": 20731,
+      "end_position": 21655
+    },
+    {
+      "id": 22,
+      "content": "By integrating embedding-hosting and executing large language models (LLMs) locallybased retrieval, context-aware inference, and efficient queryA. AI Task Offloading and Edge AI processing, the system ensures high performance AI-drivensubsections detail the interactions.The system following archi-The increasing computational demands of AI models havetecture, data preprocessing techniques, retrieval mechanisms,led to research into offloading mechanisms, wherein inferenceAI model inference, wireless deployment, and end-to-endworkloads are dynamically distributed between local and cloudexecution workflowenvironments [1]. While cloud offloading enhances processingpower, it exacerbates data security risks and dependency onA. Architectural Overviewnetwork stability [7]. Pering [5] proposed utilizing commer-cial mobile devices as AI processing units, emphasizing the The architecture of the Portable AI Server is composed offeasibility of compact, power-efficient computing.",
+      "length": 979,
+      "sentence_count": 5,
+      "start_position": 21655,
+      "end_position": 22634
+    },
+    {
+      "id": 23,
+      "content": "Architectural Overviewnetwork stability [7]. Pering [5] proposed utilizing commer-cial mobile devices as AI processing units, emphasizing the The architecture of the Portable AI Server is composed offeasibility of compact, power-efficient computing. However, multiple interconnected components, working together to facil-existing studies predominantly focus on mobile devices or itate seamless AI-driven interactions. The system is designededge-specific hardware, whereas our approach demonstrates to efficiently process user inputs, retrieve relevant information,that conventional laptops, when optimized, can serve as robust and generate meaningful responses.AI inference platforms without requiring additional hardware The workflow begins with input processing, where userinvestment. prompts and past interactions are tokenized and encoded intovector embeddings. These embeddings are then utilized inB.",
+      "length": 905,
+      "sentence_count": 6,
+      "start_position": 22634,
+      "end_position": 23539
+    },
+    {
+      "id": 24,
+      "content": "prompts and past interactions are tokenized and encoded intovector embeddings. These embeddings are then utilized inB. Localized AI Inference and Embedding-Based Retrievalthe embedding and retrieval phase, where a vector databaseEfforts to enhance localized inference efficiency have ex- performs similarity searches using cosine similarity to fetchplored embedding-based retrieval mechanisms, enabling AI relevant context. The retrieved context is then integrated intomodels to contextualize responses dynamically [8] [9]. Tra- the AI model processing phase, where the system generatesditional retrieval systems relied on keyword-based indexing, responses by leveraging pre-trained models and contextualunderstanding. The generated response is stored for future interface, ensuring a seamless and interactive conversationalreference and displayed to the user as the final AI response. experience.This structured pipeline ensures optimized performance,B.",
+      "length": 954,
+      "sentence_count": 7,
+      "start_position": 23539,
+      "end_position": 24493
+    },
+    {
+      "id": 25,
+      "content": "The generated response is stored for future interface, ensuring a seamless and interactive conversationalreference and displayed to the user as the final AI response. experience.This structured pipeline ensures optimized performance,B. Wireless Deployment Strategycontextual awareness, and accurate AI-driven responses. Fig-ure 1 provides a visual representation of the complete archi- A key aspect of this system is its wireless deployment, elim-tecture, highlighting each component's role within the system. inating the need for Ethernet connections while maintainingaccessibility. The AI server is hosted on a portable laptop andcan be accessed through a mobile hotspot or Wi-Fi network,enabling project teams to interact with the AI system withoutadditional networking infrastructure. The server is deployedusing Streamlit, providing an interactive user interface, whileOllama AI and Langchain handle response generation.",
+      "length": 925,
+      "sentence_count": 7,
+      "start_position": 24493,
+      "end_position": 25418
+    },
+    {
+      "id": 26,
+      "content": "The AI server is hosted on a portable laptop andcan be accessed through a mobile hotspot or Wi-Fi network,enabling project teams to interact with the AI system withoutadditional networking infrastructure. The server is deployedusing Streamlit, providing an interactive user interface, whileOllama AI and Langchain handle response generation. Thesystem operates completely locally, ensuring privacy and se-curity by eliminating dependencies on external cloud services.C. End-to-End Execution WorkflowThe complete execution of the Portable AI Server withOllama begins when a user enters a query through the AIserver's interface. The query is then tokenized and convertedinto vector embeddings to enable efficient retrieval. Usinga cosine similarity-based vector search, the system retrievesrelevant past interactions from the database to provide contex-tual awareness.",
+      "length": 866,
+      "sentence_count": 6,
+      "start_position": 25418,
+      "end_position": 26284
+    },
+    {
+      "id": 27,
+      "content": "The query is then tokenized and convertedinto vector embeddings to enable efficient retrieval. Usinga cosine similarity-based vector search, the system retrievesrelevant past interactions from the database to provide contex-tual awareness. The AI model integrates the retrieved contextand generates a response, ensuring accuracy and coherence.Finally, the generated response is displayed to the user throughthe web-based AI interface, completing the interaction. Thismethodology ensures that the AI server operates efficiently, de-livering real-time responses with enhanced context awarenessFig. Portable AI Server Architecture and retrieval capabilities while maintaining a fully wirelessdeployment.The architecture begins with the dataset, where user inputIV. EXPERIMENTAL SETUP AND RESULTSand chat history are stored for context-aware responses.",
+      "length": 848,
+      "sentence_count": 6,
+      "start_position": 26284,
+      "end_position": 27132
+    },
+    {
+      "id": 28,
+      "content": "Portable AI Server Architecture and retrieval capabilities while maintaining a fully wirelessdeployment.The architecture begins with the dataset, where user inputIV. EXPERIMENTAL SETUP AND RESULTSand chat history are stored for context-aware responses. Theinput processing module tokenizes the text and converts it This section presents the experimental setup and resultsinto vector embeddings for efficient representation. These obtained from deploying the Portable AI Server with Ollama inembeddings are processed in the embedding retrieval module, a fully wireless environment. The setup involved configuringwhere a vector database performs similarity searches using an AI-powered server on a repurposed laptop, enabling real-cosine similarity to retrieve relevant contextual information. time interaction without relying on cloud services.",
+      "length": 843,
+      "sentence_count": 6,
+      "start_position": 27132,
+      "end_position": 27975
+    },
+    {
+      "id": 29,
+      "content": "The setup involved configuringwhere a vector database performs similarity searches using an AI-powered server on a repurposed laptop, enabling real-cosine similarity to retrieve relevant contextual information. time interaction without relying on cloud services. The evalu-The AI model then integrates this retrieved context, generates ation focuses on AI model efficiency, embedding similarity,a response, and stores it for future interactions. Finally, the and system performance metrics.",
+      "length": 490,
+      "sentence_count": 4,
+      "start_position": 27975,
+      "end_position": 28465
+    },
+    {
+      "id": 30,
+      "content": "The evalu-The AI model then integrates this retrieved context, generates ation focuses on AI model efficiency, embedding similarity,a response, and stores it for future interactions. Finally, the and system performance metrics. Through visual analysis,processed AI-generated response is displayed to the user, including heatmaps and multidimensional plots, the server'sensuring an optimized, real-time conversational experience response optimization and retrieval accuracy are examined.within a fully wireless AI server environment The system The results highlight the feasibility of using a local AI serverprocesses user interactions, including user prompts and chat for efficient and secure AI-driven applications.history, to maintain contextual understanding and improveA. Experimental Setupresponse accuracy.",
+      "length": 812,
+      "sentence_count": 4,
+      "start_position": 28465,
+      "end_position": 29277
+    },
+    {
+      "id": 31,
+      "content": "Through visual analysis,processed AI-generated response is displayed to the user, including heatmaps and multidimensional plots, the server'sensuring an optimized, real-time conversational experience response optimization and retrieval accuracy are examined.within a fully wireless AI server environment The system The results highlight the feasibility of using a local AI serverprocesses user interactions, including user prompts and chat for efficient and secure AI-driven applications.history, to maintain contextual understanding and improveA. Experimental Setupresponse accuracy. The text input undergoes tokenization,breaking it into smaller units for further processing, after The Portable AI Server with Ollama was deployed on awhich it is encoded into vector embeddings to enable efficient repurposed laptop, ensuring a completely wireless setup. Thesimilarity searches and retrieval.",
+      "length": 893,
+      "sentence_count": 4,
+      "start_position": 29277,
+      "end_position": 30170
+    },
+    {
+      "id": 32,
+      "content": "The text input undergoes tokenization,breaking it into smaller units for further processing, after The Portable AI Server with Ollama was deployed on awhich it is encoded into vector embeddings to enable efficient repurposed laptop, ensuring a completely wireless setup. Thesimilarity searches and retrieval. These encoded vectors are system was configured with Ubuntu Server 22.04, runningstored in a Vector Database, where a similarity search mech- Apache2 for web hosting, and Streamlit for AI model inter-anism retrieves relevant past responses or context based on action. The AI models, including DeepSeek and TinyLlama,cosine similarity, ensuring that the AI model incorporates prior were deployed using LangChain and Ollama embeddings. Theinteractions when generating responses.",
+      "length": 785,
+      "sentence_count": 5,
+      "start_position": 30170,
+      "end_position": 30955
+    },
+    {
+      "id": 33,
+      "content": "The AI models, including DeepSeek and TinyLlama,cosine similarity, ensuring that the AI model incorporates prior were deployed using LangChain and Ollama embeddings. Theinteractions when generating responses. The retrieved context server was accessed via a web-based UI hosted on a mobileis then integrated into the AI model to enhance response hotspot network, allowing real-time AI interaction withoutaccuracy, allowing it to generate a response using the retrieved reliance on cloud-based servicesembeddings and store it for future reference. Finally, the The experimental setup involved a Lenovo laptop with angenerated response is displayed to the user through the web AMD PRO A4-4350B processor, 4GB RAM, and a 256GBSSD as the hardware component. The software stack included D. AI Response Optimization with 4D Plot AnalysisUbuntu Server 22.04, Streamlit, LangChain, RAG Module andA multidimensional analysis was conducted to visualizeOllama AI models.",
+      "length": 958,
+      "sentence_count": 6,
+      "start_position": 30955,
+      "end_position": 31913
+    },
+    {
+      "id": 34,
+      "content": "The software stack included D. AI Response Optimization with 4D Plot AnalysisUbuntu Server 22.04, Streamlit, LangChain, RAG Module andA multidimensional analysis was conducted to visualizeOllama AI models. The server was configured to be accessibleAI response time, model efficiency, and accuracy. Figure 4over a Wi-Fi network and a mobile hotspot using a prede-depicts a 4D plot showcasing performance optimization acrossfined IP address, ensuring seamless connectivity. Performancedifferent model configurations.evaluation was conducted based on key metrics such as AIresponse time, embedding similarity accuracy, and overallmodel efficiency.B. AI Model Performance and Embedding AnalysisTo evaluate the AI model's efficiency, DeepSeek and TinyL-lama models were deployed, and their performance was com-pared. Figure 2 shows the DeepSeek AI model's processingefficiency and response capabilities in a wireless server envi-ronment.Fig. 4D Visualization of DeepSeek EmbeddingsE.",
+      "length": 978,
+      "sentence_count": 8,
+      "start_position": 31913,
+      "end_position": 32891
+    },
+    {
+      "id": 35,
+      "content": "Figure 2 shows the DeepSeek AI model's processingefficiency and response capabilities in a wireless server envi-ronment.Fig. 4D Visualization of DeepSeek EmbeddingsE. AI Server Web Interface and OutputThe Portable AI Server was designed with a web-based UIto facilitate interaction. The interface allowed real time AIqueries, model switching, and response visualization. Figure 5shows the AI web interface output, demonstrating AI responsegeneration and chat history management.Fig. 3D Visualization of DeepSeek EmbeddingsC. Embedding Similarity and Heatmap AnalysisEmbedding similarity was used to retrieve past queries andimprove AI response relevance. Figure 3 presents a heatmaprepresentation of embedding similarity, highlighting queryretrieval accuracy.Fig. Web Page OutputV. DISCUSSIONThe Portable AI Server with Ollama demonstrates thefeasibility of a completely wireless, self-hosted AI serverusing a repurposed laptop, eliminating reliance on cloudservices while enabling real-time AI processing.",
+      "length": 1006,
+      "sentence_count": 10,
+      "start_position": 32891,
+      "end_position": 33897
+    },
+    {
+      "id": 36,
+      "content": "Web Page OutputV. DISCUSSIONThe Portable AI Server with Ollama demonstrates thefeasibility of a completely wireless, self-hosted AI serverusing a repurposed laptop, eliminating reliance on cloudservices while enabling real-time AI processing. The systemintegrates LangChain's ChatOllama, DeepSeek embeddings,Fig. Embedding Similarity Heatmapand an RAG memory module for efficient retrieval-augmentedAI interactions, enhancing contextual understanding withoutexternal API calls. Performance evaluation based on responsetime, model efficiency, and usability in a wireless environment [5] T. Pering, \"The Personal Server: Using a Commercially Availableshows minimal latency, with AI query responses typically Cell-Phone As the Center of Your Personal Computing Experience,\"Seventh IEEE Workshop on Mobile Computing Systems Applicationswithin sub-second intervals. The server supports multiple AI(WMCSA'06 Supplement), Orcas Island, WA, USA, 2006, pp.",
+      "length": 947,
+      "sentence_count": 7,
+      "start_position": 33897,
+      "end_position": 34844
+    },
+    {
+      "id": 37,
+      "content": "Pering, \"The Personal Server: Using a Commercially Availableshows minimal latency, with AI query responses typically Cell-Phone As the Center of Your Personal Computing Experience,\"Seventh IEEE Workshop on Mobile Computing Systems Applicationswithin sub-second intervals. The server supports multiple AI(WMCSA'06 Supplement), Orcas Island, WA, USA, 2006, pp. 48-48,models, dynamically switchable via a web-based UI, allowing doi: 10.1109/WMCSA.2006.29.flexible AI experimentation. Its offline processing ensures [6] P. Talasila and S. Banakar, \"Analyzing Embed-ding Models for Embedding Vectors in Vector Databases,\" 2023complete data privacy, while leveraging existing hardwareIEEE International Conference on ICT in Business Industry Gov-makes it a cost-effective, portable solution for research labs, ernment (ICTBIG), Indore, India, 2023, pp. 1-7, doi: 10.1109/ICT-education, and on-premises AI development. BIG59752.2023.10455990.[7] H. Mohammed and S.",
+      "length": 957,
+      "sentence_count": 9,
+      "start_position": 34844,
+      "end_position": 35801
+    },
+    {
+      "id": 38,
+      "content": "BIG59752.2023.10455990.[7] H. Mohammed and S. Boyapati, \"Leveraging Pre-TrainedLarge Language Models (LLMs) for On-Premises Comprehensive Au-VI. CONCLUSIONtomated Test Case Generation: An Empirical Study,\" 2024 9th Interna-tional Conference on Intelligent Informatics and Biomedical SciencesThe Portable AI Server with Ollama successfully demon-(ICIIBMS), Okinawa, Japan, 2024, pp. 597-607, doi: 10.1109/ICI-strates a novel approach to deploying AI models on a fully IBMS62405.2024.10792720.wireless, self-hosted, and portable platform using a repurposed [8] P. Sitikhu, K. Thapa and S. Shakya, \"A Comparison of SemanticSimilarity Methods for Maximum Human Interpretability,\" 2019 Artifi-laptop. By integrating LangChain's ChatOllama, DeepSeekcial Intelligence for Transforming Business and Society (AITB), Kath-embeddings, and a retrieval-augmented generation (RAG) mandu, Nepal, 2019, pp. 1-4, doi: 10.1109/AITB48515.2019.8947433.module, the system enhances AI interactions by dynami- [9] V. Dixit and S.",
+      "length": 1006,
+      "sentence_count": 11,
+      "start_position": 35801,
+      "end_position": 36807
+    },
+    {
+      "id": 39,
+      "content": "1-4, doi: 10.1109/AITB48515.2019.8947433.module, the system enhances AI interactions by dynami- [9] V. Dixit and S. Sethi, \"An Improved Sentence Embeddingsbased Information Retrieval Technique using Query Reformulation,\"cally retrieving relevant context from past queries to im-2023 International Conference on Advancement in Computation Com-prove response accuracy. The Streamlit-based web UI en- puter Technologies (InCACCT), Gharuan, India, 2023, pp. 299-304, doi:ables seamless real-time query processing, model switching, 10.1109/InCACCT57535.2023.10141788.[10] H. Ekanadham, and N. Kallus, \"Is Cosine-Similarity ofand response visualization without dependence on externalEmbeddings Really About Similarity?\" in Companion Proceedings ofcloud services. This implementation ensures enhanced data the ACM Web Conference 2024 (WWW '24), New York, NY, USA,privacy, security, and cost-effectiveness, making it a viable 2024, pp. 887-890, doi: 10.1145/3589335.3651526.[11] M. Schneider, S. Di Girolamo, A.",
+      "length": 1003,
+      "sentence_count": 11,
+      "start_position": 36807,
+      "end_position": 37810
+    },
+    {
+      "id": 40,
+      "content": "Schneider, S. Di Girolamo, A. Singla, and T. Hoe-alternative to traditional cloud-hosted AI solutions. The abilityfler, \"Towards million-server network simulations on just a lap-to operate entirely over Wi-Fi and mobile hotspots further top,\" arXiv preprint arXiv:2105.12663, 2021. Available:increases flexibility, enabling AI deployment in scenarios https://doi.org/10.48550/arXiv.2105.12663.[12] S. Krishna, S. Kamalsha, S. Amruth and S. Jadon, \"PRIVATE-where network independence, portability, and offline accessAI: A Hybrid Approach to privacy-preserving AI,\" in 2023 IEEE/ACISare critical. The dark-themed, interactive UI enhances user 8th International Conference on Big Data, Cloud Computing, and Dataengagement, while chat history tracking and efficient RAG- Science (BCD), Hochimin City, Vietnam, 2023, pp. 170-175, doi:10.1109/BCD57833.2023.10466330.based response retrieval improve usability for researchers anddevelopers.",
+      "length": 933,
+      "sentence_count": 12,
+      "start_position": 37810,
+      "end_position": 38743
+    },
+    {
+      "id": 41,
+      "content": "The dark-themed, interactive UI enhances user 8th International Conference on Big Data, Cloud Computing, and Dataengagement, while chat history tracking and efficient RAG- Science (BCD), Hochimin City, Vietnam, 2023, pp. 170-175, doi:10.1109/BCD57833.2023.10466330.based response retrieval improve usability for researchers anddevelopers. Despite hardware constraints and wireless networkvariability, the system effectively delivers an optimized andadaptable AI-powered solution. Future enhancements suchas GPU acceleration, lightweight model optimization, andedge computing integration could further improve the server'sefficiency, scalability, and applicability across diverse real-world use cases. Overall, this project validates the feasibilityof localized AI processing, demonstrating the potential foraccessible, efficient, and private AI deployments in research,education, development, and real-time AI applications.REFERENCES[1] Z. Chen and L.",
+      "length": 951,
+      "sentence_count": 6,
+      "start_position": 38743,
+      "end_position": 39694
+    },
+    {
+      "id": 42,
+      "content": "Overall, this project validates the feasibilityof localized AI processing, demonstrating the potential foraccessible, efficient, and private AI deployments in research,education, development, and real-time AI applications.REFERENCES[1] Z. Chen and L. He, \"Modelling the offload of AI Tasks in MobileClouds,\" 2022 Thirteenth International Conference on Ubiquitous andFuture Networks (ICUFN), Barcelona, Spain, 2022, pp. 266-270, doi:10.1109/ICUFN55119.2022.9829710.[2] R. Pasumarty, R. Praveen and M. R, \"The Future of AI-enabledservers in the cloud- A Survey,\" 2021 Fifth International Confer-ence on I-SMAC (IoT in Social, Mobile, Analytics and Cloud)(I-SMAC), Palladam, India, 2021, pp. 578-583, doi: 10.1109/I-SMAC52330.2021.9640925.[3] M. Astekin, M. Hort and L.",
+      "length": 766,
+      "sentence_count": 10,
+      "start_position": 39694,
+      "end_position": 40460
+    },
+    {
+      "id": 43,
+      "content": "Astekin, M. Hort and L. Moonen, \"An Exploratory Study on HowNon-Determinism in Large Language Models Affects Log Parsing,\"2024 IEEE/ACM 2nd International Workshop on Interpretability, Ro-bustness, and Benchmarking in Neural Software Engineering (InteNSE),Lisbon, Portugal, 2024, pp. 13-18.[4] M. Kang and J. Kim, \"A Family-History Based Conversational AI System Using LLM,\" 2024 15th In-ternational Conference on Information and Communication TechnologyConvergence (ICTC), Jeju Island, Korea, Republic of, 2024, pp. 685-688, doi: 10.1109/ICTC62082.2024.10827365.",
+      "length": 562,
+      "sentence_count": 7,
+      "start_position": 40460,
+      "end_position": 41022
+    }
+  ],
+  "chunk_count": 44,
+  "total_characters": 22941,
+  "total_words": 3048
+}

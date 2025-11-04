@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-08-31T22:45:13.409264",
+    "session_id": "d3104d85",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "❌ Error: 'ChatManager' object has no attribute 'model_name'",
+    "document_ref": "",
+    "response_time": 12.057958841323853,
+    "model_used": "error",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T22:45:13.412374",
+    "session_id": "d3104d85",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarize this  pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

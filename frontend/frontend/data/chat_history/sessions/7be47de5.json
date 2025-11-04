@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-08-31T22:56:58.358827",
+    "session_id": "7be47de5",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that.\n\nPlease provide the PDF you would like me to summarize. You can usually upload a file using the attachment icon (it often looks like a paperclip 📎) in the chat window.\n\nOnce you've shared it, I'll get right to work on creating a concise summary for you",
+    "document_ref": "",
+    "response_time": 10.672237873077393,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T22:56:58.362444",
+    "session_id": "7be47de5",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

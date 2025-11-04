@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-09-25T20:06:08.776535",
+    "session_id": "66b392af",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! I can help with that.\n\nBased on the documents provided, here is a summary of the content:\n\nThe documents describe a Portable AI Server that is self-hosted on a laptop and operates wirelessly, eliminating the need for cloud services (Source 1, Source 3). This setup is designed to ensure privacy, security, and cost-effectiveness (Source 2, Source 3).\n\nThe server uses a web-based interface built with Streamlit, allowing users to make real-time queries, switch between AI models, and visualize responses (Source 1, Source 2). The system uses Ollama AI and Langchain for generating responses (Source 3). To improve accuracy, it converts queries into vector embeddings and uses cosine similarity to retrieve relevant context from past interactions (Source 3).\n\nWhat specific question did you have about this content? I'm ready to help",
+    "document_ref": "",
+    "response_time": 28.97009778022766,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T20:06:08.780894",
+    "session_id": "66b392af",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the given uploaded content and answer my question",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-08-31T22:39:39.633348",
+    "session_id": "a65c886f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "I apologize, but I encountered an error while processing your request. Please try again.",
+    "document_ref": "",
+    "response_time": 11.042114973068237,
+    "model_used": "error",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T22:39:39.635183",
+    "session_id": "a65c886f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

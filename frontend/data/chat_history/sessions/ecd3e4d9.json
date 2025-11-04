@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-09-25T20:27:50.523181",
+    "session_id": "ecd3e4d9",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Based on the documents provided, here is a summary of the content:\n\nThe documents describe a \"Portable AI Server with Ollama,\" which is a self-hosted, wireless AI system that runs entirely on a portable or repurposed laptop (Source 2, Source 3).\n\nKey features of the system include:\n*   **Local Operation:** The server operates completely locally, eliminating reliance on external cloud services. This enhances data privacy, security, and cost-effectiveness (Source 1, Source 2).\n*   **User Interface:** It uses a web-based UI built with Streamlit, which allows for real-time queries, model switching, and visualization of responses (Source 1, Source 3).\n*   **Technology Stack:** The system uses Ollama AI and Langchain for response generation (Source 2).\n*   **Contextual Awareness:** To improve response accuracy, the system converts user queries into vector embeddings. It then uses a cosine similarity search to retrieve relevant past interactions from a database, providing contextual awareness for the AI (Source 2, Source 3).\n*   **Accessibility:** The server can be accessed via a mobile hotspot or Wi-Fi network without needing additional networking infrastructure (Source 2).",
+    "document_ref": "",
+    "response_time": 20.1682071685791,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T20:27:50.529469",
+    "session_id": "ecd3e4d9",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the uploaded content ",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

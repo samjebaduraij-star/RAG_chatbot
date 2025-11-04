@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-08-31T23:02:35.812068",
+    "session_id": "28bc4905",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that.\n\nPlease provide the PDF you would like me to summarize.\n\nSince I can't access local files or links, the best way to do this is to **copy the text from the PDF and paste it directly into our chat**.\n\nOnce you provide the content, I will create a concise and accurate summary for you. I'm ready when you are",
+    "document_ref": "",
+    "response_time": 13.880169868469238,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:02:35.815253",
+    "session_id": "28bc4905",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-08-31T23:11:44.749941",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nHowever, I can't see any files or PDFs that you have. To summarize it for you, please provide the content of the PDF in one of these ways:\n\n1.  **Copy and paste the text** from the PDF directly into our chat.\n2.  **Upload the file** if you see a paperclip icon (📎) or an attachment option.\n3.  If the document is online, you can **provide a link** to it.\n\nOnce you provide the content, I'll get right to work on creating a concise and accurate summary for you.",
+    "document_ref": "",
+    "response_time": 11.704069137573242,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:11:44.751911",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarize this PDF",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:12:12.490332",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! I have reviewed the provided resume for Sam Jebadurai J.\n\nI am ready to answer any questions you may have about his professional summary, skills, projects, or education based on this document. How can I help you?",
+    "document_ref": "",
+    "response_time": 10.264302730560303,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:12:12.493992",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "SAM JEBADURAI J\nJUNIOR DATA ENGINEER\nPROFESSIONAL SUMMARY\nEnthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,\nSQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.\nEager to contribute to real-world AI applications in a collaborative and learning focused environment.\nCONTACT\nPhone: +91 9345371738\nEmail: samjebaduraij@gmail.com\nEDUCATION\nKarunya Institute of Technology and\nSciences,coimbatore\nB.Tech Artificial Intelligence & Data Science, CGPA - 6.12\nCampion Anglo Indian School,Trichy\nClass 10 -79.8% June 2018 - May 2019\nClass 12 -81.10% June 2020 - May 2021\nAddress: 111,balagi Nagar 5 th\nlalgudi,Trichy-620001\neast cross Aangarai\nPROJECTS\nWeb Scrapping\nCreated a Python-based web scraper using Flask and PyPDF to extract and organize data from\nwebsites and PDFs automatically.\nApplied advanced scraping techniques to capture key data, reducing manual data processing time.\nNetwork Intrusion detection System\nDeveloped a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,\nIsolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.\nCombined model outputs using a Random Forest classifier to improve accuracy and effectively\nclassify network traffic as normal or attack using the CICIDS 2017 dataset.\nCERTIFICATIONS\nPython Programming (Udemy)\nSQL Mastery (Udemy)\nTECHNICAL SKILLS\nTechnologies: Machine Learning, Web Development,\nDatabase Management\nProgramming: Python, SQL, Java\nLANGUAGES\nENGLISH\nTAMIL\nRecognition for Extended Research Paper",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:12:31.976782",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nPlease provide the text, document, or topic you would like me to summarize. You can paste it directly into our chat. Once you do, I'll create a clear and concise summary for you.",
+    "document_ref": "",
+    "response_time": 8.556740283966064,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:12:31.981230",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise this",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:13:04.797999",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course. Here is a summary of the provided resume for Sam Jebadurai J:\n\nSam Jebadurai J is a Junior Data Engineer with a B.Tech in Artificial Intelligence & Data Science from Karunya Institute of Technology and Sciences.\n\n**Key Highlights:**\n\n*   **Skills:** He is proficient in Python, SQL, and machine learning, with experience in web development and database management.\n*   **Projects:** He has hands-on experience building a Python-based web scraper to automate data extraction and developing a complex Network Intrusion Detection System using models like Autoencoder, K-Means, and Random Forest.\n*   **Certifications:** He holds certifications in Python Programming and SQL Mastery from Udemy.\n*   **Objective:** Sam is eager to apply his skills to real-world AI applications in a collaborative and learning-focused environment.",
+    "document_ref": "",
+    "response_time": 13.176640033721924,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-08-31T23:13:04.801444",
+    "session_id": "6a85e49d",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "SAM JEBADURAI J\nJUNIOR DATA ENGINEER\nPROFESSIONAL SUMMARY\nEnthusiastic B.Tech graduate in Artificial Intelligence Data Science with hands-on experience in Python,\nSQL, and machine learning. Skilled in building data pipelines, web scraping tools, and basic neural networks.\nEager to contribute to real-world AI applications in a collaborative and learning focused environment.\nCONTACT\nPhone: +91 9345371738\nEmail: samjebaduraij@gmail.com\nEDUCATION\nKarunya Institute of Technology and\nSciences,coimbatore\nB.Tech Artificial Intelligence & Data Science, CGPA - 6.12\nCampion Anglo Indian School,Trichy\nClass 10 -79.8% June 2018 - May 2019\nClass 12 -81.10% June 2020 - May 2021\nAddress: 111,balagi Nagar 5 th\nlalgudi,Trichy-620001\neast cross Aangarai\nPROJECTS\nWeb Scrapping\nCreated a Python-based web scraper using Flask and PyPDF to extract and organize data from\nwebsites and PDFs automatically.\nApplied advanced scraping techniques to capture key data, reducing manual data processing time.\nNetwork Intrusion detection System\nDeveloped a hybrid anomaly-based Network Intrusion Detection System (NIDS) using Autoencoder,\nIsolation Forest, and K-Means for detecting unknown cyber-attacks without labeled data.\nCombined model outputs using a Random Forest classifier to improve accuracy and effectively\nclassify network traffic as normal or attack using the CICIDS 2017 dataset.\nCERTIFICATIONS\nPython Programming (Udemy)\nSQL Mastery (Udemy)\nTECHNICAL SKILLS\nTechnologies: Machine Learning, Web Development,\nDatabase Management\nProgramming: Python, SQL, Java\nLANGUAGES\nENGLISH\nTAMIL\nRecognition for Extended Research Paper\n\n\nsummarise this ",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-09-05T20:33:05.963683",
+    "session_id": "0d1d5b4d",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! I can certainly help you with a summary.\n\nHowever, it seems you haven't provided any content or documents for me to summarize yet.\n\nAs a Q&A assistant, I need you to provide the text, article, or document you'd like me to work with. Once you paste the content or upload the file, I'll be happy to create a concise and accurate summary for you.\n\nI'm ready when you are",
+    "document_ref": "",
+    "response_time": 10.461763143539429,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-05T20:33:05.966433",
+    "session_id": "0d1d5b4d",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the content",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

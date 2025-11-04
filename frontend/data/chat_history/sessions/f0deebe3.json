@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-09-25T20:18:22.085202",
+    "session_id": "f0deebe3",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course! I can help with that.\n\nBased on the documents provided, here is a summary of the content:\n\nThe documents describe a portable, self-hosted AI server that runs completely locally on a repurposed laptop, eliminating the need for external cloud services. This setup enhances data privacy, security, and cost-effectiveness (Source 1, Source 2).\n\nThe system is accessible wirelessly through a mobile hotspot or Wi-Fi and uses a Streamlit-based web interface for user interaction. This interface allows for real-time queries, switching between AI models, and visualizing responses (Source 1, Source 3). The AI's response generation is handled by Ollama AI and Langchain (Source 2).\n\nTo improve the relevance and accuracy of its answers, the system retrieves context from past user interactions. It does this by converting queries into vector embeddings and using a cosine similarity search to find the most relevant past queries from its database (Source 2, Source 3).\n\nPlease feel free to ask any questions you have about the content",
+    "document_ref": "",
+    "response_time": 19.942139863967896,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-25T20:18:22.088271",
+    "session_id": "f0deebe3",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarise the uploaded content and answer my questions regarding the content",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]

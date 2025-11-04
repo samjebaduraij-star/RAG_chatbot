@@ -1,0 +1,1103 @@
+2025-08-31 22:16:53,654 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:16:53,654 - __main__ - ERROR - Failed to initialize components: GEMINI_API_KEY environment variable is required
+2025-08-31 22:16:53,656 - __main__ - ERROR - Application runtime error: 'QAChatbotApp' object has no attribute 'sidebar'
+2025-08-31 22:20:13,132 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:20:13,133 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:20:13,176 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:23:32,468 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:23:32,469 - src.core.history_manager - INFO - Created new session: af396843
+2025-08-31 22:23:33,236 - src.services.gemini_client - ERROR - Error getting model info: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-08-31 22:23:33,251 - src.ui.document_upload - ERROR - Document upload render error: 'list' object has no attribute 'upper'
+2025-08-31 22:23:33,252 - src.ui.chat_interface - ERROR - Chat interface render error: `st.chat_input()` can't be used inside an `st.expander`, `st.form`, `st.tabs`, `st.columns`, or `st.sidebar`.
+2025-08-31 22:28:47,800 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:28:47,803 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:28:48,025 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:28:48,026 - src.core.history_manager - INFO - Created new session: 6299f0f0
+2025-08-31 22:28:50,008 - src.ui.document_upload - ERROR - Document upload render error: 'list' object has no attribute 'upper'
+2025-08-31 22:28:50,009 - src.ui.chat_interface - ERROR - Chat interface render error: `st.chat_input()` can't be used inside an `st.expander`, `st.form`, `st.tabs`, `st.columns`, or `st.sidebar`.
+2025-08-31 22:30:32,565 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:30:32,565 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:30:32,788 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:30:32,789 - src.core.history_manager - INFO - Created new session: 55d2e11c
+2025-08-31 22:30:39,262 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:30:39,263 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:30:39,398 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:30:39,399 - src.core.history_manager - INFO - Created new session: 6c19685a
+2025-08-31 22:35:40,060 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:35:40,061 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:35:40,227 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:35:42,000 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:35:42,568 - src.core.document_processor - INFO - Successfully processed: paper.pdf (44 chunks)
+2025-08-31 22:35:59,459 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:35:59,460 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:35:59,619 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:36:03,052 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-08-31 22:36:07,382 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-08-31 22:36:11,698 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-08-31 22:36:11,701 - src.core.chat_manager - ERROR - Error generating AI response: RetryError[<Future at 0x3573e6c40 state=finished raised ResourceExhausted>]
+2025-08-31 22:36:11,701 - src.core.chat_manager - ERROR - Error generating response: RetryError[<Future at 0x3573e6c40 state=finished raised ResourceExhausted>]
+2025-08-31 22:38:27,359 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:38:27,360 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:38:27,587 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:38:27,588 - src.core.history_manager - INFO - Created new session: 4a4c2ef4
+2025-08-31 22:38:54,587 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:38:54,588 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:38:54,742 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:38:54,743 - src.core.history_manager - INFO - Created new session: a65c886f
+2025-08-31 22:39:13,381 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:39:13,383 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:39:13,525 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:39:15,249 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:39:15,252 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 22:39:27,775 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:39:27,776 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:39:27,909 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:39:29,261 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-08-31 22:39:39,629 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+2025-08-31 22:39:39,631 - src.core.chat_manager - ERROR - Gemini API error: RetryError[<Future at 0x344195070 state=finished raised ResourceExhausted>]
+2025-08-31 22:39:39,631 - src.core.chat_manager - ERROR - Error generating response: RetryError[<Future at 0x344195070 state=finished raised ResourceExhausted>]
+2025-08-31 22:42:02,627 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:42:02,628 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:42:02,843 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:42:02,843 - src.core.history_manager - INFO - Created new session: fc0c8958
+2025-08-31 22:42:11,953 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:42:11,955 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:42:12,085 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:42:12,853 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:42:12,855 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 22:42:21,891 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:42:21,892 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:42:22,029 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:42:23,248 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-08-31 22:42:33,570 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-08-31 22:42:33,570 - src.core.chat_manager - ERROR - Gemini API error: RetryError[<Future at 0x3577115b0 state=finished raised ResourceExhausted>]
+2025-08-31 22:42:33,570 - src.core.chat_manager - ERROR - Error generating response: RetryError[<Future at 0x3577115b0 state=finished raised ResourceExhausted>]
+2025-08-31 22:44:20,432 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:44:20,433 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:44:20,596 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:44:20,596 - src.core.history_manager - INFO - Created new session: 5f37f78a
+2025-08-31 22:44:25,691 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:44:25,692 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:44:25,812 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:44:25,813 - src.core.history_manager - INFO - Created new session: d3104d85
+2025-08-31 22:44:36,814 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:44:36,814 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:44:36,937 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:44:37,533 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:44:37,535 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 22:45:00,421 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:45:00,423 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:45:00,564 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:45:03,068 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-08-31 22:45:13,406 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-08-31 22:45:13,407 - src.core.chat_manager - ERROR - Retry failed after all attempts: RetryError[<Future at 0x355f935b0 state=finished raised ResourceExhausted>]
+2025-08-31 22:45:13,407 - src.core.chat_manager - ERROR - Error generating response: 'ChatManager' object has no attribute 'model_name'
+2025-08-31 22:46:15,757 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:46:15,757 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:46:15,758 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:46:15,758 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:46:16,113 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:46:16,113 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:46:16,114 - src.core.history_manager - INFO - Created new session: 5c999db0
+2025-08-31 22:46:16,114 - src.core.history_manager - INFO - Created new session: c221caeb
+2025-08-31 22:46:31,321 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:46:31,322 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:46:31,445 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:46:33,185 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:46:33,188 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 22:46:43,937 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:46:43,937 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:46:44,096 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:46:45,493 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-08-31 22:46:55,866 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-08-31 22:46:55,866 - src.core.chat_manager - ERROR - Retry failed after all attempts: RetryError[<Future at 0x3573a4d00 state=finished raised ResourceExhausted>]
+2025-08-31 22:54:17,025 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:54:17,026 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:54:17,267 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:54:17,267 - src.core.history_manager - INFO - Created new session: 3d7e3e3e
+2025-08-31 22:54:20,131 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:54:20,132 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:54:20,260 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:54:20,260 - src.core.history_manager - INFO - Created new session: 217f37a3
+2025-08-31 22:54:25,879 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:54:25,881 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:54:26,010 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:54:27,739 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:54:27,740 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 22:54:34,845 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:54:34,846 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:54:34,960 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:56:22,638 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:56:22,639 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:56:22,809 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:56:22,810 - src.core.history_manager - INFO - Created new session: 7be47de5
+2025-08-31 22:56:30,385 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:56:30,386 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:56:30,517 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 22:56:32,258 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 22:56:32,261 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 22:56:45,792 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 22:56:45,793 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 22:56:45,931 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:00:45,808 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:00:45,808 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:00:46,041 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:00:46,042 - src.core.history_manager - INFO - Created new session: d185d8b5
+2025-08-31 23:00:47,899 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:00:47,900 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:00:48,014 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:00:48,014 - src.core.history_manager - INFO - Created new session: 83939b3e
+2025-08-31 23:01:07,815 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:01:07,816 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:01:07,940 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:01:09,643 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 23:01:09,645 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 23:01:20,538 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:01:20,539 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:01:20,660 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:01:53,992 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:01:53,994 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:01:54,128 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:01:54,129 - src.core.history_manager - INFO - Created new session: 28bc4905
+2025-08-31 23:02:09,343 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:02:09,343 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:02:09,470 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:02:10,248 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-08-31 23:02:10,342 - src.core.document_processor - INFO - Successfully processed: sam-resume.pdf (2 chunks)
+2025-08-31 23:02:20,070 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:02:20,072 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:02:20,208 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:04:02,364 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:04:02,365 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:04:02,544 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:04:02,544 - src.core.history_manager - INFO - Created new session: 785880af
+2025-08-31 23:04:04,521 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:04:04,522 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:04:04,640 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:04:04,641 - src.core.history_manager - INFO - Created new session: 2259c2d3
+2025-08-31 23:04:15,632 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:04:15,633 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:04:15,755 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:04:16,337 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 23:04:16,937 - src.core.document_processor - INFO - Successfully processed: paper.pdf (44 chunks)
+2025-08-31 23:04:25,845 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:04:25,847 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:04:25,984 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:09,869 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:07:09,870 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:07:10,046 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:10,046 - src.core.history_manager - INFO - Created new session: b87867fc
+2025-08-31 23:07:11,100 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:07:11,101 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:07:11,233 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:11,233 - src.core.history_manager - INFO - Created new session: be75287c
+2025-08-31 23:07:18,038 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:07:18,041 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:07:18,165 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:19,891 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 23:07:19,894 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 23:07:26,746 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:07:26,747 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:07:26,884 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:27,643 - src.core.chat_manager - INFO - Processing message: summarise this pdf...
+2025-08-31 23:07:27,643 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:07:27,643 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:07:27,653 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:07:41,630 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:07:41,630 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:07:41,748 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:41,748 - src.core.history_manager - INFO - Created new session: a2afa46f
+2025-08-31 23:07:54,591 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:07:54,592 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:07:54,715 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:07:55,460 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 23:07:55,463 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 23:08:03,486 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:08:03,488 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:08:03,626 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:08:04,328 - src.core.chat_manager - INFO - Processing message: summarise this pdf...
+2025-08-31 23:08:04,328 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:08:04,329 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:08:04,338 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:09:52,474 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:09:52,475 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:09:52,655 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:09:53,448 - src.core.chat_manager - INFO - Processing message: SAM JEBADURAI J
+JUNIOR DATA ENGINEER
+PROFESSIONAL ...
+2025-08-31 23:09:53,448 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:09:53,449 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:09:53,471 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:10:31,116 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:10:31,117 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:10:31,253 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:10:31,992 - src.core.chat_manager - INFO - Processing message: summarise this...
+2025-08-31 23:10:31,992 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:10:31,993 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:10:32,001 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:11:08,506 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:11:08,507 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:11:08,675 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:11:08,677 - src.core.history_manager - INFO - Created new session: 6a85e49d
+2025-08-31 23:11:15,684 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:11:15,686 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:11:15,810 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:11:17,529 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-08-31 23:11:17,531 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-08-31 23:11:32,107 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:11:32,108 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:11:32,283 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:11:33,045 - src.core.chat_manager - INFO - Processing message: summarize this PDF...
+2025-08-31 23:11:33,045 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:11:33,045 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:11:33,053 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:12:01,389 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:12:01,391 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:12:01,549 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:12:02,224 - src.core.chat_manager - INFO - Processing message: SAM JEBADURAI J
+JUNIOR DATA ENGINEER
+PROFESSIONAL ...
+2025-08-31 23:12:02,224 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:12:02,224 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:12:02,247 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:12:21,554 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:12:21,556 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:12:21,693 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:12:23,418 - src.core.chat_manager - INFO - Processing message: summarise this...
+2025-08-31 23:12:23,419 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:12:23,419 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:12:23,430 - src.core.chat_manager - INFO - No relevant chunks found
+2025-08-31 23:12:49,712 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-08-31 23:12:49,715 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-31 23:12:49,851 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-08-31 23:12:51,619 - src.core.chat_manager - INFO - Processing message: SAM JEBADURAI J
+JUNIOR DATA ENGINEER
+PROFESSIONAL ...
+2025-08-31 23:12:51,619 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-08-31 23:12:51,619 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-08-31 23:12:51,643 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-05 20:32:17,371 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:32:17,373 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:32:17,655 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:32:17,655 - src.core.history_manager - INFO - Created new session: 0d1d5b4d
+2025-09-05 20:32:26,996 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:32:26,997 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:32:27,128 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:32:29,113 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-09-05 20:32:29,115 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-09-05 20:32:53,440 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:32:53,442 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:32:53,652 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:32:55,501 - src.core.chat_manager - INFO - Processing message: summarise the content...
+2025-09-05 20:32:55,501 - src.core.chat_manager - INFO - Context documents provided: 3
+2025-09-05 20:32:55,501 - src.core.chat_manager - INFO - Building context with 3 documents
+2025-09-05 20:32:55,512 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-05 20:33:32,442 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:33:32,443 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:33:32,638 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:33:32,639 - src.core.history_manager - INFO - Created new session: 46fe944f
+2025-09-05 20:34:15,219 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:34:15,221 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:34:15,358 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:34:17,185 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-09-05 20:34:17,186 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-09-05 20:34:30,793 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:34:30,794 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:34:30,927 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:34:31,990 - src.core.chat_manager - INFO - Processing message: summarise the uploaded content...
+2025-09-05 20:34:31,990 - src.core.chat_manager - INFO - Context documents provided: 3
+2025-09-05 20:34:31,990 - src.core.chat_manager - INFO - Building context with 3 documents
+2025-09-05 20:34:31,999 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-05 20:36:10,755 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:36:10,756 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:36:10,928 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:36:12,752 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-05 20:36:12,753 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-05 20:36:59,435 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-05 20:36:59,437 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-05 20:36:59,569 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-05 20:37:01,277 - src.core.chat_manager - INFO - Processing message: summarise the  sam-resume.pdf...
+2025-09-05 20:37:01,278 - src.core.chat_manager - INFO - Context documents provided: 4
+2025-09-05 20:37:01,278 - src.core.chat_manager - INFO - Building context with 4 documents
+2025-09-05 20:37:01,291 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-19 22:11:03,237 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-19 22:11:03,238 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-19 22:11:03,515 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-19 22:11:03,516 - src.core.history_manager - INFO - Created new session: ad08b61f
+2025-09-19 22:11:19,845 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-19 22:11:19,846 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-19 22:11:19,969 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-19 22:11:21,974 - src.core.document_processor - INFO - Processing document: paper.pdf
+2025-09-19 22:11:21,976 - src.core.document_processor - INFO - Document already processed: doc_40056a35ab56e5de
+2025-09-19 22:11:39,039 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-19 22:11:39,042 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-19 22:11:39,253 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-19 22:11:41,272 - src.core.chat_manager - INFO - Processing message: summarize the uploaded pdf...
+2025-09-19 22:11:41,272 - src.core.chat_manager - INFO - Context documents provided: 3
+2025-09-19 22:11:41,272 - src.core.chat_manager - INFO - Building context with 3 documents
+2025-09-19 22:11:41,284 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:40:29,421 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:40:29,423 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:40:29,712 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:40:29,713 - src.core.history_manager - INFO - Created new session: 6838b7ac
+2025-09-25 19:40:43,581 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:40:43,583 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:40:43,770 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:40:44,670 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 19:40:44,671 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 19:41:19,640 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:41:19,643 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:41:19,838 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:41:21,910 - src.core.chat_manager - INFO - Processing message: summarise the given content...
+2025-09-25 19:41:21,911 - src.core.chat_manager - INFO - Context documents provided: 3
+2025-09-25 19:41:21,911 - src.core.chat_manager - INFO - Building context with 3 documents
+2025-09-25 19:41:21,923 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:42:39,145 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:42:39,147 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:42:39,326 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:42:41,569 - src.core.chat_manager - INFO - Processing message: give me a song...
+2025-09-25 19:42:41,569 - src.core.chat_manager - INFO - Context documents provided: 3
+2025-09-25 19:42:41,569 - src.core.chat_manager - INFO - Building context with 3 documents
+2025-09-25 19:42:41,581 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:43:45,817 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:43:45,818 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:43:45,949 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:43:55,343 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:43:55,344 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:43:55,474 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:43:57,685 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 19:43:57,686 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 19:44:16,162 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:44:16,164 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:44:16,297 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:44:17,451 - src.core.chat_manager - INFO - Processing message: summarise the uploaded content...
+2025-09-25 19:44:17,451 - src.core.chat_manager - INFO - Context documents provided: 4
+2025-09-25 19:44:17,451 - src.core.chat_manager - INFO - Building context with 4 documents
+2025-09-25 19:44:17,463 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:44:39,414 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:44:39,416 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:44:39,546 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:45:14,650 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:45:14,651 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:45:14,784 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:45:16,945 - src.core.chat_manager - INFO - Processing message: summarise the uploaded content...
+2025-09-25 19:45:16,946 - src.core.chat_manager - INFO - Context documents provided: 4
+2025-09-25 19:45:16,946 - src.core.chat_manager - INFO - Building context with 4 documents
+2025-09-25 19:45:16,958 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:45:56,037 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:45:56,039 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:45:56,240 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:04,695 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:04,696 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:04,824 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:07,223 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 19:46:07,223 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 19:46:21,164 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:21,165 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:21,299 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:23,504 - src.core.chat_manager - INFO - Processing message: summarise the  uploaded content ...
+2025-09-25 19:46:23,505 - src.core.chat_manager - INFO - Context documents provided: 5
+2025-09-25 19:46:23,505 - src.core.chat_manager - INFO - Building context with 5 documents
+2025-09-25 19:46:23,517 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:46:31,131 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:31,135 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:31,272 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:31,887 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:31,889 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:32,024 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:32,589 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:32,591 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:32,727 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:33,534 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:33,535 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:33,662 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:46:59,007 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 19:46:59,009 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 19:46:59,142 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 19:47:03,570 - src.core.chat_manager - INFO - Processing message: summarise the uploaded content...
+2025-09-25 19:47:03,570 - src.core.chat_manager - INFO - Context documents provided: 5
+2025-09-25 19:47:03,571 - src.core.chat_manager - INFO - Building context with 5 documents
+2025-09-25 19:47:03,583 - src.core.chat_manager - INFO - No relevant chunks found
+2025-09-25 19:47:47,765 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 12.393881553s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-09-25 19:47:58,189 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 1.973529471s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-09-25 19:47:58,190 - src.core.chat_manager - ERROR - Retry failed after all attempts: RetryError[<Future at 0x35705da30 state=finished raised ResourceExhausted>]
+2025-09-25 20:04:49,860 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:04:49,861 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:04:50,050 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:04:50,051 - src.core.history_manager - INFO - Created new session: 66b392af
+2025-09-25 20:05:06,902 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:05:06,903 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:05:07,031 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:05:09,099 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:05:09,099 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:05:38,743 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:05:38,745 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:05:38,958 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:05:39,802 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:05:39,802 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:05:39,803 - src.core.chat_manager - INFO - Processing message: summarise the given uploaded content and answer my...
+2025-09-25 20:05:39,803 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-09-25 20:05:39,804 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-09-25 20:05:40,331 - src.core.chat_manager - INFO - Built context with 3165 characters
+2025-09-25 20:16:25,910 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:16:25,912 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:16:26,110 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:16:28,361 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:16:28,361 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:16:28,363 - src.core.history_manager - INFO - Created new session: e980f42a
+2025-09-25 20:16:28,427 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:16:28,427 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:16:28,539 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:16:30,671 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:16:30,671 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:16:34,785 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:16:34,786 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:16:34,917 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:16:34,917 - src.core.history_manager - INFO - Created new session: f0deebe3
+2025-09-25 20:17:04,398 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:17:04,399 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:17:04,524 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:17:06,613 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:17:06,613 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:18:01,310 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:18:01,312 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:18:01,445 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:18:02,138 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:18:02,139 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:18:02,141 - src.core.chat_manager - INFO - Processing message: summarise the uploaded content and answer my quest...
+2025-09-25 20:18:02,141 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-09-25 20:18:02,141 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-09-25 20:18:02,634 - src.core.chat_manager - INFO - Selected top chunks for context: [{'source': 'paper.pdf', 'similarity': 0.2420763075351715, 'snippet': '1-4, doi: 10.1109/AITB48515.2019.8947433.module, the system enhances AI interactions by dynami- [9] V. Dixit and S. Seth...'}, {'source': 'paper.pdf', 'similarity': 0.2315363883972168, 'snippet': 'The AI server is hosted on a portable laptop andcan be accessed through a mobile hotspot or Wi-Fi network,enabling proje...'}, {'source': 'paper.pdf', 'similarity': 0.22471916675567627, 'snippet': "Figure 2 shows the DeepSeek AI model's processingefficiency and response capabilities in a wireless server envi-ronment...."}]
+2025-09-25 20:18:02,634 - src.core.chat_manager - INFO - Built context with 3165 characters
+2025-09-25 20:18:36,620 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:18:36,621 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:18:36,813 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:18:38,887 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:18:38,887 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:18:38,890 - src.core.history_manager - INFO - Created new session: 348d24d6
+2025-09-25 20:18:38,952 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:18:38,953 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:18:39,065 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:18:41,127 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:18:41,127 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:19:02,340 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:19:02,342 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:19:02,475 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:19:03,268 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:19:03,268 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:19:16,141 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:19:16,143 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:19:16,274 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:22:12,168 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:22:12,169 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:22:12,304 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:22:14,634 - src.core.history_manager - INFO - Created new session: d5fb1231
+2025-09-25 20:22:14,700 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:22:14,701 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:22:14,812 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:23:12,695 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:23:12,696 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:23:12,824 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:23:14,963 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:23:14,964 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:24:28,701 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:24:28,703 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:24:28,881 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:24:30,990 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:24:30,990 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:24:30,992 - src.core.chat_manager - INFO - Processing message: answer about professional summary in the uploaded ...
+2025-09-25 20:24:30,992 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-09-25 20:24:30,992 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-09-25 20:24:31,470 - src.core.chat_manager - INFO - Selected top chunks for context: [{'source': 'paper.pdf', 'similarity': 0.17043261229991913, 'snippet': 'prompts and past interactions are tokenized and encoded intovector embeddings. These embeddings are then utilized inB. L...'}, {'source': 'paper.pdf', 'similarity': 0.16574059426784515, 'snippet': '1-4, doi: 10.1109/AITB48515.2019.8947433.module, the system enhances AI interactions by dynami- [9] V. Dixit and S. Seth...'}, {'source': 'paper.pdf', 'similarity': 0.14787046611309052, 'snippet': "Figure 2 shows the DeepSeek AI model's processingefficiency and response capabilities in a wireless server envi-ronment...."}]
+2025-09-25 20:24:31,470 - src.core.chat_manager - INFO - Built context with 3253 characters
+2025-09-25 20:24:47,291 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 12.984712335s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-09-25 20:24:57,736 - src.services.gemini_client - ERROR - Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 2.43127552s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-09-25 20:24:57,736 - src.core.chat_manager - ERROR - Retry failed after all attempts: RetryError[<Future at 0x1749b1d90 state=finished raised ResourceExhausted>]
+2025-09-25 20:26:13,309 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:26:13,310 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:26:13,486 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:26:13,486 - src.core.history_manager - INFO - Created new session: ecd3e4d9
+2025-09-25 20:26:25,342 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:26:25,343 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:26:25,472 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:26:27,560 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:26:27,560 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:27:27,989 - __main__ - INFO - Starting Q&A Chatbot Application
+2025-09-25 20:27:27,990 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-25 20:27:28,123 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2025-09-25 20:27:30,349 - src.core.document_processor - INFO - Processing document: sam-resume.pdf
+2025-09-25 20:27:30,350 - src.core.document_processor - INFO - Document already processed: doc_a23c5dc023785b42
+2025-09-25 20:27:30,352 - src.core.chat_manager - INFO - Processing message: summarise the uploaded content ...
+2025-09-25 20:27:30,352 - src.core.chat_manager - INFO - Context documents provided: 2
+2025-09-25 20:27:30,352 - src.core.chat_manager - INFO - Building context with 2 documents
+2025-09-25 20:27:30,815 - src.core.chat_manager - INFO - Selected top chunks for context: [{'source': 'paper.pdf', 'similarity': 0.2320423722267151, 'snippet': '1-4, doi: 10.1109/AITB48515.2019.8947433.module, the system enhances AI interactions by dynami- [9] V. Dixit and S. Seth...'}, {'source': 'paper.pdf', 'similarity': 0.19464994966983795, 'snippet': 'The AI server is hosted on a portable laptop andcan be accessed through a mobile hotspot or Wi-Fi network,enabling proje...'}, {'source': 'paper.pdf', 'similarity': 0.18842411041259766, 'snippet': "Figure 2 shows the DeepSeek AI model's processingefficiency and response capabilities in a wireless server envi-ronment...."}]
+2025-09-25 20:27:30,815 - src.core.chat_manager - INFO - Built context with 3165 characters

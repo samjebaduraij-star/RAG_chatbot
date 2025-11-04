@@ -1,0 +1,156 @@
+[
+  {
+    "session_id": "af396843",
+    "created_at": "2025-08-31T22:23:32.469241",
+    "last_activity": "2025-08-31T22:23:32.469241",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "6299f0f0",
+    "created_at": "2025-08-31T22:28:48.026319",
+    "last_activity": "2025-08-31T22:28:48.026319",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "55d2e11c",
+    "created_at": "2025-08-31T22:30:32.789007",
+    "last_activity": "2025-08-31T22:30:32.789007",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "6c19685a",
+    "created_at": "2025-08-31T22:30:39.398860",
+    "last_activity": "2025-08-31T22:36:11.706864",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "4a4c2ef4",
+    "created_at": "2025-08-31T22:38:27.588296",
+    "last_activity": "2025-08-31T22:38:27.588296",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "a65c886f",
+    "created_at": "2025-08-31T22:38:54.743316",
+    "last_activity": "2025-08-31T22:39:39.635682",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "fc0c8958",
+    "created_at": "2025-08-31T22:42:02.843658",
+    "last_activity": "2025-08-31T22:42:33.572915",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "5f37f78a",
+    "created_at": "2025-08-31T22:44:20.596531",
+    "last_activity": "2025-08-31T22:44:20.596531",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "d3104d85",
+    "created_at": "2025-08-31T22:44:25.813317",
+    "last_activity": "2025-08-31T22:45:13.412910",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "c221caeb",
+    "created_at": "2025-08-31T22:46:16.114414",
+    "last_activity": "2025-08-31T22:46:16.114414",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "3d7e3e3e",
+    "created_at": "2025-08-31T22:54:17.267634",
+    "last_activity": "2025-08-31T22:54:50.736012",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "217f37a3",
+    "created_at": "2025-08-31T22:54:20.260653",
+    "last_activity": "2025-08-31T22:54:20.260653",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "7be47de5",
+    "created_at": "2025-08-31T22:56:22.810178",
+    "last_activity": "2025-08-31T22:56:58.363428",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "d185d8b5",
+    "created_at": "2025-08-31T23:00:46.042133",
+    "last_activity": "2025-08-31T23:01:34.382971",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "83939b3e",
+    "created_at": "2025-08-31T23:00:48.014644",
+    "last_activity": "2025-08-31T23:00:48.014644",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "28bc4905",
+    "created_at": "2025-08-31T23:01:54.128821",
+    "last_activity": "2025-08-31T23:02:35.815837",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "785880af",
+    "created_at": "2025-08-31T23:04:02.544665",
+    "last_activity": "2025-08-31T23:04:40.265868",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "2259c2d3",
+    "created_at": "2025-08-31T23:04:04.641106",
+    "last_activity": "2025-08-31T23:04:04.641106",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "b87867fc",
+    "created_at": "2025-08-31T23:07:10.046475",
+    "last_activity": "2025-08-31T23:07:38.409307",
+    "message_count": 2,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "be75287c",
+    "created_at": "2025-08-31T23:07:11.233447",
+    "last_activity": "2025-08-31T23:07:11.233447",
+    "message_count": 0,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "a2afa46f",
+    "created_at": "2025-08-31T23:07:41.748394",
+    "last_activity": "2025-08-31T23:10:40.375454",
+    "message_count": 6,
+    "user_id": "default_user"
+  },
+  {
+    "session_id": "6a85e49d",
+    "created_at": "2025-08-31T23:11:08.676722",
+    "last_activity": "2025-08-31T23:13:04.802622",
+    "message_count": 8,
+    "user_id": "default_user"
+  }
+]

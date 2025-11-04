@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-09-19T22:11:48.524025",
+    "session_id": "ad08b61f",
+    "user_id": "default_user",
+    "message_type": "assistant",
+    "content": "Of course, I can help with that!\n\nHowever, it seems you haven't uploaded a PDF yet. Please upload the document you would like me to summarize, and I'll be happy to provide you with a concise overview.",
+    "document_ref": "",
+    "response_time": 7.2496771812438965,
+    "model_used": "gemini-2.5-pro",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  },
+  {
+    "timestamp": "2025-09-19T22:11:48.526743",
+    "session_id": "ad08b61f",
+    "user_id": "default_user",
+    "message_type": "user",
+    "content": "summarize the uploaded pdf",
+    "document_ref": "",
+    "response_time": 0.0,
+    "model_used": "",
+    "tokens_used": 0,
+    "confidence_score": 0.0
+  }
+]
